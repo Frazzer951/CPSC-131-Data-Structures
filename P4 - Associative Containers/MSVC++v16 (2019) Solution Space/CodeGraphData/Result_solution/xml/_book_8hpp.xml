@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_book_8hpp" kind="file">
+    <compoundname>Book.hpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">string_view</includes>
+    <includedby refid="_book_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/Book.cpp</includedby>
+    <includedby refid="_book_database_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp</includedby>
+    <includedby refid="_book_database_8hpp" local="yes">Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp</includedby>
+    <includedby refid="_bookstore_8hpp" local="yes">Z:/P4 - Associative Containers/SourceCode/Bookstore.hpp</includedby>
+    <includedby refid="_book_tests_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/BookTests.cpp</includedby>
+    <incdepgraph>
+      <node id="78">
+        <label>string</label>
+      </node>
+      <node id="79">
+        <label>string_view</label>
+      </node>
+      <node id="77">
+        <label>iostream</label>
+      </node>
+      <node id="76">
+        <label>Z:/P4 - Associative Containers/SourceCode/Book.hpp</label>
+        <link refid="Book.hpp"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="82">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp</label>
+        <link refid="_book_database_8cpp"/>
+      </node>
+      <node id="85">
+        <label>Z:/P4 - Associative Containers/SourceCode/Bookstore.cpp</label>
+        <link refid="_bookstore_8cpp"/>
+      </node>
+      <node id="86">
+        <label>Z:/P4 - Associative Containers/SourceCode/Bookstore.hpp</label>
+        <link refid="_bookstore_8hpp"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp</label>
+        <link refid="_book_database_tests_8cpp"/>
+      </node>
+      <node id="81">
+        <label>Z:/P4 - Associative Containers/SourceCode/Book.cpp</label>
+        <link refid="_book_8cpp"/>
+      </node>
+      <node id="89">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookTests.cpp</label>
+        <link refid="_book_tests_8cpp"/>
+      </node>
+      <node id="87">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp</label>
+        <link refid="_bookstore_tests_8cpp"/>
+      </node>
+      <node id="83">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp</label>
+        <link refid="_book_database_8hpp"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>Z:/P4 - Associative Containers/SourceCode/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="80">
+        <label>Z:/P4 - Associative Containers/SourceCode/Book.hpp</label>
+        <link refid="Book.hpp"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_book" prot="public">Book</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_book_8hpp_1a116eb8dbb8114f9e5b00d44bf41774bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Book &amp;lhs, const Book &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp" line="47" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/Book.cpp" bodystart="55" bodyend="58"/>
+        <references refid="class_book_1aa1be815cdb2d8e2f961dfbcd49cf9e8b" compoundref="_book_8hpp" startline="42">Book::_author</references>
+        <references refid="class_book_1af9ee41a2b7e172ce85d814713346cf76" compoundref="_book_8hpp" startline="40">Book::_isbn</references>
+        <references refid="class_book_1aec9d079c0d1633c08c14fcac05695e8b" compoundref="_book_8hpp" startline="43">Book::_price</references>
+        <references refid="class_book_1aac2573475ebcf9bf3589a05e176a5c21" compoundref="_book_8hpp" startline="41">Book::_title</references>
+        <references refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" compoundref="_book_8cpp" startline="10">EPSILON</references>
+      </memberdef>
+      <memberdef kind="function" id="_book_8hpp_1ae0ffeec014f9dba132534f4f8274b07a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const Book &amp;lhs, const Book &amp;rhs)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp" line="48" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/Book.cpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="_book_8hpp_1aa108cc0b25789ae25ff47fa6ac646a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const Book &amp;lhs, const Book &amp;rhs)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp" line="50" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/Book.cpp" bodystart="60" bodyend="69"/>
+        <references refid="class_book_1aa1be815cdb2d8e2f961dfbcd49cf9e8b" compoundref="_book_8hpp" startline="42">Book::_author</references>
+        <references refid="class_book_1af9ee41a2b7e172ce85d814713346cf76" compoundref="_book_8hpp" startline="40">Book::_isbn</references>
+        <references refid="class_book_1aec9d079c0d1633c08c14fcac05695e8b" compoundref="_book_8hpp" startline="43">Book::_price</references>
+        <references refid="class_book_1aac2573475ebcf9bf3589a05e176a5c21" compoundref="_book_8hpp" startline="41">Book::_title</references>
+        <references refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" compoundref="_book_8cpp" startline="10">EPSILON</references>
+      </memberdef>
+      <memberdef kind="function" id="_book_8hpp_1a93a5779aeaefb985fdb7ea606bb8aa16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(const Book &amp;lhs, const Book &amp;rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp" line="51" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/Book.cpp" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="_book_8hpp_1a40fbc0a5e69dc8327f522847aecd0488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const Book &amp;lhs, const Book &amp;rhs)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp" line="52" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/Book.cpp" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="_book_8hpp_1a8d55315e6231b0e129b4c950bd22ce53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(const Book &amp;lhs, const Book &amp;rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_book" kindref="compound">Book</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp" line="53" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/Book.cpp" bodystart="77" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once<sp/><sp/><sp/><sp/>//<sp/>include<sp/>guard</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string_view&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_book" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_book" kindref="compound">Book</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Insertion<sp/>and<sp/>Extraction<sp/>Operators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::ostream<sp/>&amp;<sp/><ref refid="class_book_1ae97f4d7ff5ceedacbf3de30d6653ea00" kindref="member">operator&lt;&lt;</ref>(<sp/>std::ostream<sp/>&amp;<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" kindref="member">stream</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>book<sp/>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>std::istream<sp/>&amp;<sp/><ref refid="class_book_1ad17000f82c12fb33fb4437d58b9eda36" kindref="member">operator&gt;&gt;</ref>(<sp/>std::istream<sp/>&amp;<sp/>stream,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>book<sp/>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Relational<sp/>Operators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_book_1a116eb8dbb8114f9e5b00d44bf41774bd" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_book_1aa108cc0b25789ae25ff47fa6ac646a9f" kindref="member">operator&lt; </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book_1a1260973684ff983cb48b3e579b6b3553" kindref="member">Book</ref>(<sp/>std::string_view<sp/><ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref><sp/><sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string_view<sp/><ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref><sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string_view<sp/><ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref><sp/><sp/><sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref><sp/><sp/>=<sp/>0.0<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Queries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref><sp/><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Mutators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref><sp/><sp/>(<sp/>std::string_view<sp/>newIsbn<sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref><sp/>(<sp/>std::string_view<sp/>newTitle<sp/><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>(<sp/>std::string_view<sp/>newAuthor<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref><sp/>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newPrice<sp/><sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40" refid="class_book_1af9ee41a2b7e172ce85d814713346cf76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_book_1af9ee41a2b7e172ce85d814713346cf76" kindref="member">_isbn</ref>;</highlight></codeline>
+<codeline lineno="41" refid="class_book_1aac2573475ebcf9bf3589a05e176a5c21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_book_1aac2573475ebcf9bf3589a05e176a5c21" kindref="member">_title</ref>;</highlight></codeline>
+<codeline lineno="42" refid="class_book_1aa1be815cdb2d8e2f961dfbcd49cf9e8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_book_1aa1be815cdb2d8e2f961dfbcd49cf9e8b" kindref="member">_author</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_book_1aec9d079c0d1633c08c14fcac05695e8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book_1aec9d079c0d1633c08c14fcac05695e8b" kindref="member">_price</ref><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Relational<sp/>Operators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_book_8hpp_1a116eb8dbb8114f9e5b00d44bf41774bd" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_book_8hpp_1ae0ffeec014f9dba132534f4f8274b07a" kindref="member">operator!=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_book_8hpp_1aa108cc0b25789ae25ff47fa6ac646a9f" kindref="member">operator&lt; </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_book_8hpp_1a93a5779aeaefb985fdb7ea606bb8aa16" kindref="member">operator&lt;=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_book_8hpp_1a40fbc0a5e69dc8327f522847aecd0488" kindref="member">operator&gt; </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_book_8hpp_1a8d55315e6231b0e129b4c950bd22ce53" kindref="member">operator&gt;=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>&amp;<sp/>rhs<sp/>);</highlight></codeline>
+    </programlisting>
+    <location file="Z:/P4 - Associative Containers/SourceCode/Book.hpp"/>
+  </compounddef>
+</doxygen>

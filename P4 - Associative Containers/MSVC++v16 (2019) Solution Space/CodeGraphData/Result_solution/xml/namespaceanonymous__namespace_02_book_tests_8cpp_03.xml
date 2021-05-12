@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceanonymous__namespace_02_book_tests_8cpp_03" kind="namespace">
+    <compoundname>anonymous_namespace{BookTests.cpp}</compoundname>
+    <innerclass refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" prot="public">anonymous_namespace{BookTests.cpp}::BookRegressionTest</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a7fa8851a286f8e094935c4bcf897dc1f" prot="public" static="no" mutable="no">
+        <type>constexpr auto</type>
+        <definition>constexpr auto anonymous_namespace{BookTests.cpp}::EPSILON</definition>
+        <argsstring></argsstring>
+        <name>EPSILON</name>
+        <initializer>= 1E-4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="15" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1acec3491fa2c9c7c730da0585655845c6" prot="public" static="no" mutable="no">
+        <type>class anonymous_namespace{BookTests.cpp}::<ref refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" kindref="compound">BookRegressionTest</ref></type>
+        <definition>class anonymous_namespace{BookTests.cpp}::BookRegressionTest  anonymous_namespace{BookTests.cpp}::run_book_tests</definition>
+        <argsstring></argsstring>
+        <name>run_book_tests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" prot="public" static="no" mutable="no">
+        <type>std::stringstream</type>
+        <definition>std::stringstream anonymous_namespace{BookTests.cpp}::stream</definition>
+        <argsstring></argsstring>
+        <name>stream</name>
+        <initializer>{  
+      <ref refid="class_book" kindref="compound">Book</ref> b1,
+           b2( &quot;book&apos;s title&quot; ),
+           b3( &quot;book&apos;s title&quot;, &quot;book&apos;s author&quot; ),
+           b4( &quot;book&apos;s title&quot;, &quot;book&apos;s author&quot;, &quot;book&apos;s ISBN&quot; ),
+           b5( &quot;book&apos;s title&quot;, &quot;book&apos;s author&quot;, &quot;book&apos;s ISBN&quot;, 123.79 )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="123" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="116" bodyend="-1"/>
+        <referencedby refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a3d9388f1735e41cc3b97fbcb7c69bc05" compoundref="_book_tests_8cpp" startline="84" endline="115">anonymous_namespace{BookTests.cpp}::BookRegressionTest::io</referencedby>
+        <referencedby refid="namespace_regression_1a82a1d79c9c0e425e91e3d9c1d08159e7" compoundref="_check_results_8hpp" startline="41" endline="48">Regression::operator&lt;&lt;</referencedby>
+        <referencedby refid="_book_8cpp_1ae97f4d7ff5ceedacbf3de30d6653ea00" compoundref="_book_8cpp" startline="28" endline="38">operator&lt;&lt;</referencedby>
+        <referencedby refid="_book_8cpp_1ad17000f82c12fb33fb4437d58b9eda36" compoundref="_book_8cpp" startline="40" endline="52">operator&gt;&gt;</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" kindref="member">stream</ref>&lt;&lt; b1&lt;&lt;  &apos;\n&apos;&lt;&lt; b2&lt;&lt;  &apos;\n&apos;&lt;&lt; b3&lt;&lt;  &apos;\n&apos;&lt;&lt; b4&lt;&lt;  &apos;\n&apos;&lt;&lt; b5;<ref refid="class_book" kindref="compound">Book</ref> t1, t2, t3, t4, t5;<ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" kindref="member">stream</ref> &gt; t1 t2 t3 t4</type>
+        <definition>stream&lt;&lt; b1 &lt;&lt; &apos;\n&apos; &lt;&lt; b2 &lt;&lt; &apos;\n&apos; &lt;&lt; b3 &lt;&lt; &apos;\n&apos; &lt;&lt; b4 &lt;&lt; &apos;\n&apos; &lt;&lt; b5; Book t1, t2, t3, t4, t5; stream &gt; t1 t2 t3 t4 anonymous_namespace{BookTests.cpp}::t5</definition>
+        <argsstring></argsstring>
+        <name>t5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="132" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="132" bodyend="-1"/>
+        <referencedby refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a3d9388f1735e41cc3b97fbcb7c69bc05" compoundref="_book_tests_8cpp" startline="84" endline="115">anonymous_namespace{BookTests.cpp}::BookRegressionTest::io</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1ad7c74a036bedd948cfdc5d9f1825d047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>affirm</type>
+        <definition>affirm anonymous_namespace{BookTests.cpp}::is_equal</definition>
+        <argsstring>(&quot;Symmetrical Book insertion and extraction 1&quot;, b1, t1)</argsstring>
+        <name>is_equal</name>
+        <param>
+          <type>&quot;Symmetrical <ref refid="class_book" kindref="compound">Book</ref> insertion and extraction 1&quot;</type>
+        </param>
+        <param>
+          <type>b1</type>
+        </param>
+        <param>
+          <type>t1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1aa8ddc5b178217ab84feaff872647270a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>affirm</type>
+        <definition>affirm anonymous_namespace{BookTests.cpp}::is_equal</definition>
+        <argsstring>(&quot;Symmetrical Book insertion and extraction 2&quot;, b2, t2)</argsstring>
+        <name>is_equal</name>
+        <param>
+          <type>&quot;Symmetrical <ref refid="class_book" kindref="compound">Book</ref> insertion and extraction 2&quot;</type>
+        </param>
+        <param>
+          <type>b2</type>
+        </param>
+        <param>
+          <type>t2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1ad37cb114784ca695772f9fad27dfbf1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>affirm</type>
+        <definition>affirm anonymous_namespace{BookTests.cpp}::is_equal</definition>
+        <argsstring>(&quot;Symmetrical Book insertion and extraction 3&quot;, b3, t3)</argsstring>
+        <name>is_equal</name>
+        <param>
+          <type>&quot;Symmetrical <ref refid="class_book" kindref="compound">Book</ref> insertion and extraction 3&quot;</type>
+        </param>
+        <param>
+          <type>b3</type>
+        </param>
+        <param>
+          <type>t3</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a42d0ed44a9cec43ce1b0a1826e6b85c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>affirm</type>
+        <definition>affirm anonymous_namespace{BookTests.cpp}::is_equal</definition>
+        <argsstring>(&quot;Symmetrical Book insertion and extraction 4&quot;, b4, t4)</argsstring>
+        <name>is_equal</name>
+        <param>
+          <type>&quot;Symmetrical <ref refid="class_book" kindref="compound">Book</ref> insertion and extraction 4&quot;</type>
+        </param>
+        <param>
+          <type>b4</type>
+        </param>
+        <param>
+          <type>t4</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a201e3e588179caf08c7032cb8904c35e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>affirm</type>
+        <definition>affirm anonymous_namespace{BookTests.cpp}::is_equal</definition>
+        <argsstring>(&quot;Symmetrical Book insertion and extraction 5&quot;, b5, t5)</argsstring>
+        <name>is_equal</name>
+        <param>
+          <type>&quot;Symmetrical <ref refid="class_book" kindref="compound">Book</ref> insertion and extraction 5&quot;</type>
+        </param>
+        <param>
+          <type>b5</type>
+        </param>
+        <param>
+          <type><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" kindref="member">t5</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="138" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="14" column="1"/>
+  </compounddef>
+</doxygen>

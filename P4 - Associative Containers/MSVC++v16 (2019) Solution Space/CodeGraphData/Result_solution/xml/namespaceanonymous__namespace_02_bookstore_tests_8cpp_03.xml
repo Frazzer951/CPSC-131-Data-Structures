@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceanonymous__namespace_02_bookstore_tests_8cpp_03" kind="namespace">
+    <compoundname>anonymous_namespace{BookstoreTests.cpp}</compoundname>
+    <innerclass refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect" prot="public">anonymous_namespace{BookstoreTests.cpp}::Redirect</innerclass>
+    <innerclass refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test" prot="public">anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceanonymous__namespace_02_bookstore_tests_8cpp_03_1a4d131e34f5acbc4ada56ed33b9d0eec7" prot="public" static="no" mutable="no">
+        <type>class anonymous_namespace{BookstoreTests.cpp}::<ref refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test" kindref="compound">BookstoreRegressionTest</ref></type>
+        <definition>class anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest  anonymous_namespace{BookstoreTests.cpp}::run_Bookstore_tests</definition>
+        <argsstring></argsstring>
+        <name>run_Bookstore_tests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="89" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="16" column="1"/>
+  </compounddef>
+</doxygen>

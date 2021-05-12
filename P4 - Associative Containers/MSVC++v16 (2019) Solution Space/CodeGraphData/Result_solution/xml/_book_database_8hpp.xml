@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_book_database_8hpp" kind="file">
+    <compoundname>BookDatabase.hpp</compoundname>
+    <includes local="no">cstddef</includes>
+    <includes local="no">string</includes>
+    <includes local="no">map</includes>
+    <includes refid="_book_8hpp" local="yes">Book.hpp</includes>
+    <includedby refid="_book_database_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp</includedby>
+    <includedby refid="_book_database_tests_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp</includedby>
+    <includedby refid="_bookstore_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/Bookstore.cpp</includedby>
+    <incdepgraph>
+      <node id="111">
+        <label>string</label>
+      </node>
+      <node id="112">
+        <label>map</label>
+      </node>
+      <node id="115">
+        <label>string_view</label>
+      </node>
+      <node id="114">
+        <label>iostream</label>
+      </node>
+      <node id="110">
+        <label>cstddef</label>
+      </node>
+      <node id="109">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp</label>
+        <link refid="BookDatabase.hpp"/>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>Book.hpp</label>
+        <link refid="_book_8hpp"/>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="117">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp</label>
+        <link refid="_book_database_8cpp"/>
+      </node>
+      <node id="119">
+        <label>Z:/P4 - Associative Containers/SourceCode/Bookstore.cpp</label>
+        <link refid="_bookstore_8cpp"/>
+      </node>
+      <node id="118">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp</label>
+        <link refid="_book_database_tests_8cpp"/>
+      </node>
+      <node id="116">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp</label>
+        <link refid="BookDatabase.hpp"/>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_book_database" prot="public">BookDatabase</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>size_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_book_8hpp" kindref="compound">Book.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Singleton<sp/>Design<sp/>Pattern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_book_database" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_book_database" kindref="compound">BookDatabase</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>a<sp/>reference<sp/>to<sp/>the<sp/>one<sp/>and<sp/>only<sp/>instance<sp/>of<sp/>the<sp/>database</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_book_database" kindref="compound">BookDatabase</ref><sp/>&amp;<sp/><ref refid="class_book_database_1ac21ac248fbeaa4d38846f0f08213c3b5" kindref="member">instance</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Locate<sp/>and<sp/>return<sp/>a<sp/>reference<sp/>to<sp/>a<sp/>particular<sp/>record</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>*<sp/><ref refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" kindref="member">find</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>isbn<sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>item<sp/>in<sp/>the<sp/>database<sp/>if<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>found,<sp/>nullptr<sp/>otherwise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Queries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="class_book_database_1ad7a0da3be246f111471fa42e6782e276" kindref="member">size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>number<sp/>of<sp/>items<sp/>in<sp/>the<sp/>database</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book_database_1ad3d6f50934ee8e0fa251a9c9c88d885a" kindref="member">BookDatabase</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/>&amp;<sp/>filename<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book_database_1ad3d6f50934ee8e0fa251a9c9c88d885a" kindref="member">BookDatabase</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book_database" kindref="compound">BookDatabase</ref><sp/>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>intentionally<sp/>prohibit<sp/>making<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book_database" kindref="compound">BookDatabase</ref><sp/>&amp;<sp/><ref refid="class_book_database_1a4dfc522e38e40b0c4246f6e27cd4b1e3" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_book_database" kindref="compound">BookDatabase</ref><sp/>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>intentionally<sp/>prohibit<sp/>copy<sp/>assignments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Private<sp/>implementation<sp/>details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;std::string<sp/></highlight><highlight class="comment">/*ISBN*/</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref>&gt;<sp/><ref refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" kindref="member">_data</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp"/>
+  </compounddef>
+</doxygen>

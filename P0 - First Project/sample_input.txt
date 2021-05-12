@@ -1,0 +1,16 @@
+"0000171921","Linux commands & resources directory - 1st ed","Howard L. Goldberg",56.69
+
+"0000370096", "Where eagles dare"             , 
+"Norah Woollard"       , 
+118.07
+
+"0001005340"    , 
+"Little Grey Rabbit's Birthday", 
+"Alison \"Ally\" Uttley", 
+31.57 "0001062417", 
+"Early aircraft", "Allward, Maurice F.",
+  65.65
+
+"0001051776" , "The  poems of Rudyard Kipling", "Rudyard Kipling", 26.45
+
+"00000000000000", "incomplete / invalid item"

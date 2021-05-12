@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_regression" kind="namespace">
+    <compoundname>Regression</compoundname>
+    <innerclass refid="struct_regression_1_1_check_results" prot="public">Regression::CheckResults</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_regression_1a1e7008b4904cc51765e347180df94d0a" prot="public" static="no" mutable="no">
+        <type>constexpr auto</type>
+        <definition>constexpr auto Regression::EPSILON</definition>
+        <argsstring></argsstring>
+        <name>EPSILON</name>
+        <initializer>= 1E-4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="9" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="9" bodyend="-1"/>
+        <referencedby refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" compoundref="_check_results_8hpp" startline="60" endline="79">Regression::CheckResults::is_equal</referencedby>
+        <referencedby refid="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" compoundref="_check_results_8hpp" startline="84" endline="103">Regression::CheckResults::is_not_equal</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_regression_1a82a1d79c9c0e425e91e3d9c1d08159e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Regression::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;stream, const CheckResults &amp;results)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_regression_1_1_check_results" kindref="compound">CheckResults</ref> &amp;</type>
+          <declname>results</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="26" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="41" bodyend="48"/>
+        <references refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" compoundref="_book_tests_8cpp" startline="116">anonymous_namespace{BookTests.cpp}::stream</references>
+        <references refid="struct_regression_1_1_check_results_1a2f3c0c72b4ad488624cbc8a4aa8d527e" compoundref="_check_results_8hpp" startline="22">Regression::CheckResults::testCount</references>
+        <references refid="struct_regression_1_1_check_results_1a67568ec0b9351dd134c95bfb3a242490" compoundref="_check_results_8hpp" startline="23">Regression::CheckResults::testsPassed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

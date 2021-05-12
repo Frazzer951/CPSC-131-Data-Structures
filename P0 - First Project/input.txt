@@ -1,0 +1,9 @@
+"0000171921","A Book","Some One",33.69
+
+"0000370096", "A Book 2 : Electric Boogaloo", "Some One", 420.69
+
+"0001005340", "Furry Mason and the Goblet of Heat", "Jane Doe", 3.99 
+
+"0001062417", "A Book 3 : The Person Rises", "Some One", 65.65
+
+"0001051776", "The  poems of Rudyard Kipling", "Rudyard Kipling", 26.45

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b72d80872838821c17a36193a5180a04" kind="dir">
+    <compoundname>Z:/P4 - Associative Containers</compoundname>
+    <innerdir refid="dir_0e6a64edf6fa2b4501163a842ee311d7">Z:/P4 - Associative Containers/SourceCode</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/P4 - Associative Containers/"/>
+  </compounddef>
+</doxygen>

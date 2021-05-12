@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_bookstore_8hpp" kind="file">
+    <compoundname>Bookstore.hpp</compoundname>
+    <includes local="no">map</includes>
+    <includes local="no">set</includes>
+    <includes local="no">string</includes>
+    <includes refid="_book_8hpp" local="yes">Book.hpp</includes>
+    <includedby refid="_bookstore_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/Bookstore.cpp</includedby>
+    <includedby refid="_bookstore_tests_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">Z:/P4 - Associative Containers/SourceCode/main.cpp</includedby>
+    <incdepgraph>
+      <node id="158">
+        <label>string</label>
+      </node>
+      <node id="156">
+        <label>map</label>
+      </node>
+      <node id="155">
+        <label>Z:/P4 - Associative Containers/SourceCode/Bookstore.hpp</label>
+        <link refid="Bookstore.hpp"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>string_view</label>
+      </node>
+      <node id="160">
+        <label>iostream</label>
+      </node>
+      <node id="157">
+        <label>set</label>
+      </node>
+      <node id="159">
+        <label>Book.hpp</label>
+        <link refid="_book_8hpp"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="163">
+        <label>Z:/P4 - Associative Containers/SourceCode/Bookstore.cpp</label>
+        <link refid="_bookstore_8cpp"/>
+      </node>
+      <node id="162">
+        <label>Z:/P4 - Associative Containers/SourceCode/Bookstore.hpp</label>
+        <link refid="Bookstore.hpp"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="164">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp</label>
+        <link refid="_bookstore_tests_8cpp"/>
+      </node>
+      <node id="165">
+        <label>Z:/P4 - Associative Containers/SourceCode/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_bookstore" prot="public">Bookstore</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;set&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_book_8hpp" kindref="compound">Book.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_bookstore" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bookstore" kindref="compound">Bookstore</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Type<sp/>Definition<sp/>Aliases</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>|Alias<sp/>Name<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>Key<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>|<sp/>Value<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>+-----------+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+------------------+<sp/><sp/>+-----------------------+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_bookstore_1a8a4586ed49d4d9f934215fd8ee3b1031" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1a8a4586ed49d4d9f934215fd8ee3b1031" kindref="member">BooksSold</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>std::set&lt;std::string<sp/></highlight><highlight class="comment">/*ISBN*/</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>N/A<sp/>*/</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;;<sp/><sp/></highlight><highlight class="comment">//<sp/>A<sp/>collection<sp/>of<sp/>ISBNs<sp/>for<sp/>books<sp/>that<sp/>have<sp/>been<sp/>sold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19" refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Inventory_DB</ref><sp/><sp/>=<sp/>std::map&lt;std::string<sp/></highlight><highlight class="comment">/*ISBN*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*quantity*/</highlight><highlight class="normal">&gt;;<sp/><sp/></highlight><highlight class="comment">//<sp/>Maintains<sp/>of<sp/>the<sp/>quantity<sp/>of<sp/>books<sp/>in<sp/>stock<sp/>identified<sp/>by<sp/>ISBN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_bookstore_1aec735b490f96dc3ea93e60c4dbec3ff0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1aec735b490f96dc3ea93e60c4dbec3ff0" kindref="member">ShoppingCart</ref><sp/><sp/>=<sp/>std::map&lt;std::string<sp/></highlight><highlight class="comment">/*ISBN*/</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;;<sp/><sp/></highlight><highlight class="comment">//<sp/>An<sp/>individual<sp/>shopping<sp/>cart<sp/>filled<sp/>with<sp/>books</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_bookstore_1aae615c92c10ffb6253f8e295700c18e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1aae615c92c10ffb6253f8e295700c18e8" kindref="member">ShoppingCarts</ref><sp/>=<sp/>std::map&lt;std::string<sp/></highlight><highlight class="comment">/*name*/</highlight><highlight class="normal">,<sp/><ref refid="class_bookstore_1aec735b490f96dc3ea93e60c4dbec3ff0" kindref="member">ShoppingCart</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&gt;;<sp/><sp/></highlight><highlight class="comment">//<sp/>A<sp/>collection<sp/>if<sp/>shoppers,<sp/>identified<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>name,<sp/>each<sp/>pushing<sp/>a<sp/>shopping<sp/>cart.<sp/><sp/>Notice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>that<sp/>this<sp/>structure<sp/>is<sp/>a<sp/>tree,<sp/>and<sp/>each</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>element<sp/>in<sp/>the<sp/>tree<sp/>is<sp/>also<sp/>a<sp/>tree.<sp/>That</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>is,<sp/>this<sp/>is<sp/>a<sp/>tree<sp/>of<sp/>trees.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructors,<sp/>assignments,<sp/>destructor<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bookstore_1afed5f4cac4a039e02bcab174058da680" kindref="member">Bookstore</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<sp/>persistenyInventoryDB<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;BookstoreInventory.dat&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Queries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Inventory_DB</ref><sp/>&amp;<sp/><ref refid="class_bookstore_1ab6c5783c56572530b5a48c2c58ba119c" kindref="member">inventory</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>a<sp/>reference<sp/>to<sp/>the<sp/>store&apos;s<sp/>one<sp/>and<sp/>only<sp/>inventory<sp/>database</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Operations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Each<sp/>customer,<sp/>in<sp/>turn,<sp/>places<sp/>their<sp/>books<sp/>on<sp/>the<sp/>checkout<sp/>counter<sp/>where<sp/>they<sp/>are<sp/>scanned,<sp/>paid<sp/>for,<sp/>and<sp/>a<sp/>receipt<sp/>issued.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>a<sp/>collection<sp/>of<sp/>ISBNs<sp/>for<sp/>books<sp/>that<sp/>have<sp/>been<sp/>sold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bookstore_1a8a4586ed49d4d9f934215fd8ee3b1031" kindref="member">BooksSold</ref><sp/><ref refid="class_bookstore_1a2070d6b68ab700dd10fcb2ba94135a43" kindref="member">processCustomerShoppingCarts</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1aae615c92c10ffb6253f8e295700c18e8" kindref="member">ShoppingCarts</ref><sp/>&amp;<sp/>shoppingCarts<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Re-orders<sp/>books<sp/>sold<sp/>that<sp/>have<sp/>fallen<sp/>below<sp/>the<sp/>re-order<sp/>threshold,<sp/>then<sp/>clears<sp/>the<sp/>reorder<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1ae22380272d6bb1c94ac620d95bc0ab3e" kindref="member">reorderItems</ref>(<sp/><ref refid="class_bookstore_1a8a4586ed49d4d9f934215fd8ee3b1031" kindref="member">BooksSold</ref><sp/>&amp;<sp/>todaysSales<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initializes<sp/>a<sp/>bunch<sp/>of<sp/>customers<sp/>pushing<sp/>shopping<sp/>carts<sp/>filled<sp/>with<sp/>groceries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bookstore_1aae615c92c10ffb6253f8e295700c18e8" kindref="member">ShoppingCarts</ref><sp/><sp/><ref refid="class_bookstore_1abb469147b72d1a9d258323c757495c66" kindref="member">makeShoppingCarts</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Class<sp/>attributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_bookstore_1a852a485311e323bda07bb474fd39a1a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>constexpr<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1a852a485311e323bda07bb474fd39a1a2" kindref="member">REORDER_THRESHOLD</ref><sp/>=<sp/>15;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>When<sp/>the<sp/>quantity<sp/>on<sp/>hand<sp/>dips<sp/>below<sp/>this<sp/>threshold,<sp/>it&apos;s<sp/>time<sp/>to<sp/>order<sp/>more<sp/>inventory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_bookstore_1a886df07eec29b5bbabf94147a6b818d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>constexpr<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_bookstore_1a886df07eec29b5bbabf94147a6b818d4" kindref="member">LOT_COUNT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>items<sp/>that<sp/>can<sp/>be<sp/>ordered<sp/>at<sp/>one<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Instance<sp/>attributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_bookstore_1a24d67309b2a1e464b183eeef6bbd5ca9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Inventory_DB</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bookstore_1a24d67309b2a1e464b183eeef6bbd5ca9" kindref="member">_inventoryDB</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Z:/P4 - Associative Containers/SourceCode/Bookstore.hpp"/>
+  </compounddef>
+</doxygen>

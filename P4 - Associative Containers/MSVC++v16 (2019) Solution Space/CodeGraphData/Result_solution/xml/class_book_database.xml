@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_book_database" kind="class" prot="public">
+    <compoundname>BookDatabase</compoundname>
+    <includes refid="_book_database_8hpp" local="no">BookDatabase.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_book_database_1a486b2b836609758527a5c90e8e0a2301" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="class_book" kindref="compound">Book</ref> &gt;</type>
+        <definition>std::map&lt;std::string , Book&gt; BookDatabase::_data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="30" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_book_database_1ad3d6f50934ee8e0fa251a9c9c88d885a" compoundref="_book_database_8cpp" startline="35" endline="69">BookDatabase</referencedby>
+        <referencedby refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" compoundref="_book_database_8cpp" startline="78" endline="86">find</referencedby>
+        <referencedby refid="class_book_database_1ad7a0da3be246f111471fa42e6782e276" compoundref="_book_database_8cpp" startline="88" endline="91">size</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_book_database_1ac21ac248fbeaa4d38846f0f08213c3b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_book_database" kindref="compound">BookDatabase</ref> &amp;</type>
+        <definition>BookDatabase &amp; BookDatabase::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TO-DO (1) ////////////////////////////// Include necessary header files Hint: Include what you use, use what you include </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="16" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp" bodystart="14" bodyend="29"/>
+        <referencedby refid="class_bookstore_1a2070d6b68ab700dd10fcb2ba94135a43" compoundref="_bookstore_8cpp" startline="60" endline="119">Bookstore::processCustomerShoppingCarts</referencedby>
+        <referencedby refid="class_bookstore_1ae22380272d6bb1c94ac620d95bc0ab3e" compoundref="_bookstore_8cpp" startline="127" endline="179">Bookstore::reorderItems</referencedby>
+        <referencedby refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" compoundref="_book_database_tests_8cpp" startline="33" endline="63">anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest::tests</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_book" kindref="compound">Book</ref> *</type>
+        <definition>Book * BookDatabase::find</definition>
+        <argsstring>(const std::string &amp;isbn)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>isbn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TO-DO (3) ////////////////////////////// Implement the rest of the interface, including functions find and size</para><para>In function find, don&apos;t walk the collection from beginning to end (an O(n) operation), find the item with a binary search (an O(log n) operation) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="19" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp" bodystart="78" bodyend="86"/>
+        <references refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" compoundref="_book_database_8hpp" startline="30">_data</references>
+        <referencedby refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" compoundref="_book_database_tests_8cpp" startline="33" endline="63">anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest::tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_book_database_1ad7a0da3be246f111471fa42e6782e276" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t BookDatabase::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="22" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp" bodystart="88" bodyend="91"/>
+        <references refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" compoundref="_book_database_8hpp" startline="30">_data</references>
+        <referencedby refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" compoundref="_book_database_tests_8cpp" startline="33" endline="63">anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest::tests</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_book_database_1ad3d6f50934ee8e0fa251a9c9c88d885a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BookDatabase::BookDatabase</definition>
+        <argsstring>(const std::string &amp;filename)</argsstring>
+        <name>BookDatabase</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>TO-DO (2) //////////////////////////////</para><para>The file contains Books separated by whitespace. A <ref refid="class_book" kindref="compound">Book</ref> has 4 pieces of data delimited with a comma. (This exactly matches the previous assignment as to how Books are read) <verbatim>  Field            Type            Notes
+</verbatim><orderedlist>
+<listitem><para><ref refid="class_book" kindref="compound">Book</ref>&apos;s ISBN String Unique identifier (primary key), always enclosed in double quotes</para></listitem><listitem><para><ref refid="class_book" kindref="compound">Book</ref>&apos;s Title String May contain spaces, always enclosed in double quotes</para></listitem><listitem><para><ref refid="class_book" kindref="compound">Book</ref>&apos;s Author String May contain spaces, always enclosed in double quotes</para></listitem><listitem><para><ref refid="class_book" kindref="compound">Book</ref>&apos;s Price Floating Point In dollars</para></listitem></orderedlist>
+</para><para>Example: &quot;0001062417&quot;, &quot;Early aircraft&quot;, &quot;Maurice F. Allward&quot;, 65.65 &quot;0000255406&quot;, &quot;Shadow maker \&quot;1st edition)"&quot;,  &quot;Rosemary Sullivan&quot;,   8.08
+   &quot;0000385264&quot;,  &quot;Der Karawanenkardinal&quot;,          &quot;Heinz Gstrein", 35.18</para><para>Note: double quotes within the string are escaped with the backslash character</para>        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="25" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabase.cpp" bodystart="35" bodyend="69"/>
+        <references refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" compoundref="_book_database_8hpp" startline="30">_data</references>
+        <references refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" compoundref="_book_8cpp" startline="16" endline="16">Book::isbn</references>
+      </memberdef>
+      <memberdef kind="function" id="class_book_database_1acba6b9ba7efa71b503bfd39d90c74440" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BookDatabase::BookDatabase</definition>
+        <argsstring>(const BookDatabase &amp;)=delete</argsstring>
+        <name>BookDatabase</name>
+        <param>
+          <type>const <ref refid="class_book_database" kindref="compound">BookDatabase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_book_database_1a4dfc522e38e40b0c4246f6e27cd4b1e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_book_database" kindref="compound">BookDatabase</ref> &amp;</type>
+        <definition>BookDatabase&amp; BookDatabase::operator=</definition>
+        <argsstring>(const BookDatabase &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_book_database" kindref="compound">BookDatabase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>BookDatabase</label>
+        <link refid="class_book_database"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::map&lt; std::string, Book &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="7">
+        <label>Book</label>
+        <link refid="class_book"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_title</edgelabel>
+          <edgelabel>_isbn</edgelabel>
+          <edgelabel>_author</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::string</label>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" line="13" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabase.hpp" bodystart="12" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" prot="private" virt="non-virtual"><scope>BookDatabase</scope><name>_data</name></member>
+      <member refid="class_book_database_1ad3d6f50934ee8e0fa251a9c9c88d885a" prot="private" virt="non-virtual"><scope>BookDatabase</scope><name>BookDatabase</name></member>
+      <member refid="class_book_database_1acba6b9ba7efa71b503bfd39d90c74440" prot="private" virt="non-virtual"><scope>BookDatabase</scope><name>BookDatabase</name></member>
+      <member refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" prot="public" virt="non-virtual"><scope>BookDatabase</scope><name>find</name></member>
+      <member refid="class_book_database_1ac21ac248fbeaa4d38846f0f08213c3b5" prot="public" virt="non-virtual"><scope>BookDatabase</scope><name>instance</name></member>
+      <member refid="class_book_database_1a4dfc522e38e40b0c4246f6e27cd4b1e3" prot="private" virt="non-virtual"><scope>BookDatabase</scope><name>operator=</name></member>
+      <member refid="class_book_database_1ad7a0da3be246f111471fa42e6782e276" prot="public" virt="non-virtual"><scope>BookDatabase</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

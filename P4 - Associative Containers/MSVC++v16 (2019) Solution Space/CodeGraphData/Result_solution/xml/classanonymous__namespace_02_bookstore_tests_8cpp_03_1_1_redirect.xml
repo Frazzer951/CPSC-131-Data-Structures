@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect" kind="class" prot="public">
+    <compoundname>anonymous_namespace{BookstoreTests.cpp}::Redirect</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a0cf1e3eac97ff3c3f1f93c1ab4c1b267" prot="private" static="no" mutable="no">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; anonymous_namespace{BookstoreTests.cpp}::Redirect::originalStream</definition>
+        <argsstring></argsstring>
+        <name>originalStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="34" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a2375d396fabd7bf5b4fa765139a7150a" prot="private" static="no" mutable="no">
+        <type>std::streambuf *const</type>
+        <definition>std::streambuf* const anonymous_namespace{BookstoreTests.cpp}::Redirect::originalBuffer</definition>
+        <argsstring></argsstring>
+        <name>originalBuffer</name>
+        <initializer>= originalStream.rdbuf()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="35" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a4e55f5ce664f674c3b8e38efd6d71309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>anonymous_namespace{BookstoreTests.cpp}::Redirect::Redirect</definition>
+        <argsstring>(std::ostream &amp;from, std::ostream &amp;to)</argsstring>
+        <name>Redirect</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="20" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a2fd7bac565580d07bc67756858143b94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>anonymous_namespace{BookstoreTests.cpp}::Redirect::~Redirect</definition>
+        <argsstring>()</argsstring>
+        <name>~Redirect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="26" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="46">
+        <label>anonymous_namespace{BookstoreTests.cpp}::Redirect</label>
+        <link refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect"/>
+        <childnode refid="47" relation="usage">
+          <edgelabel>originalStream</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>std::ios_base</label>
+      </node>
+      <node id="47">
+        <label>std::ostream</label>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>std::basic_ostream&lt; char &gt;</label>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="18" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="17" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a2375d396fabd7bf5b4fa765139a7150a" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::Redirect</scope><name>originalBuffer</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a0cf1e3eac97ff3c3f1f93c1ab4c1b267" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::Redirect</scope><name>originalStream</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a4e55f5ce664f674c3b8e38efd6d71309" prot="public" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::Redirect</scope><name>Redirect</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a2fd7bac565580d07bc67756858143b94" prot="public" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::Redirect</scope><name>~Redirect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

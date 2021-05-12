@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test" kind="class" prot="public">
+    <compoundname>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a25655f854ed9d4de77c8f7499ce9b2a6" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_regression_1_1_check_results" kindref="compound">Regression::CheckResults</ref></type>
+        <definition>Regression::CheckResults anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::affirm</definition>
+        <argsstring></argsstring>
+        <name>affirm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="56" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a7aaa241db5142f46444255693eb7e264" prot="private" static="no" mutable="no">
+        <type><ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref></type>
+        <definition>Bookstore::Inventory_DB anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::expectedValues</definition>
+        <argsstring></argsstring>
+        <name>expectedValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="58" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a3d5d8f44c6ab390559a44b37864e7b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::BookstoreRegressionTest</definition>
+        <argsstring>()</argsstring>
+        <name>BookstoreRegressionTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="46" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="96" bodyend="144"/>
+        <references refid="class_bookstore_1ab6c5783c56572530b5a48c2c58ba119c" compoundref="_bookstore_8cpp" startline="49" endline="52">Bookstore::inventory</references>
+        <references refid="class_bookstore_1abb469147b72d1a9d258323c757495c66" compoundref="_bookstore_8cpp" startline="187" endline="277">Bookstore::makeShoppingCarts</references>
+        <references refid="class_bookstore_1a2070d6b68ab700dd10fcb2ba94135a43" compoundref="_bookstore_8cpp" startline="60" endline="119">Bookstore::processCustomerShoppingCarts</references>
+        <references refid="class_bookstore_1ae22380272d6bb1c94ac620d95bc0ab3e" compoundref="_bookstore_8cpp" startline="127" endline="179">Bookstore::reorderItems</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a2c27ee2c1a41188540ca3049a955eb75" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::test_1</definition>
+        <argsstring>(const Bookstore::Inventory_DB &amp;inventory)</argsstring>
+        <name>test_1</name>
+        <param>
+          <type>const <ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref> &amp;</type>
+          <declname>inventory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="49" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="168" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a417ff27290e9ed7b3d02c86c3a5b0ca2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::test_2</definition>
+        <argsstring>(const Bookstore::Inventory_DB &amp;inventory)</argsstring>
+        <name>test_2</name>
+        <param>
+          <type>const <ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref> &amp;</type>
+          <declname>inventory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="50" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="180" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1ae723f5914f38aeb2fb0ec67cd25052c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::test_3</definition>
+        <argsstring>(const Bookstore::Inventory_DB &amp;inventory)</argsstring>
+        <name>test_3</name>
+        <param>
+          <type>const <ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref> &amp;</type>
+          <declname>inventory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="51" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="194" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a756895c7f095bde068551c7f8b3e43fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::test_4</definition>
+        <argsstring>(const Bookstore::BooksSold &amp;soldBooks, const Bookstore::Inventory_DB &amp;inventory)</argsstring>
+        <name>test_4</name>
+        <param>
+          <type>const <ref refid="class_bookstore_1a8a4586ed49d4d9f934215fd8ee3b1031" kindref="member">Bookstore::BooksSold</ref> &amp;</type>
+          <declname>soldBooks</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref> &amp;</type>
+          <declname>inventory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="52" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="210" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a34105d8c6a033a3b7bd46501f92e1d57" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest::validate</definition>
+        <argsstring>(const Bookstore::Inventory_DB &amp;inventory, const Bookstore::Inventory_DB &amp;pairs)</argsstring>
+        <name>validate</name>
+        <param>
+          <type>const <ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref> &amp;</type>
+          <declname>inventory</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kindref="member">Bookstore::Inventory_DB</ref> &amp;</type>
+          <declname>pairs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="54" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="151" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="36">
+        <label>std::map&lt; std::string, unsigned int &gt;</label>
+        <childnode refid="37" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Regression::CheckResults</label>
+        <link refid="struct_regression_1_1_check_results"/>
+        <childnode refid="32" relation="usage">
+          <edgelabel>testResults</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="34">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>std::ios_base</label>
+      </node>
+      <node id="32">
+        <label>std::ostream</label>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>std::basic_ostream&lt; char &gt;</label>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</label>
+        <link refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>affirm</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>expectedValues</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>std::string</label>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" line="44" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookstoreTests.cpp" bodystart="43" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a25655f854ed9d4de77c8f7499ce9b2a6" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>affirm</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a3d5d8f44c6ab390559a44b37864e7b47" prot="public" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>BookstoreRegressionTest</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a7aaa241db5142f46444255693eb7e264" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>expectedValues</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a2c27ee2c1a41188540ca3049a955eb75" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>test_1</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a417ff27290e9ed7b3d02c86c3a5b0ca2" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>test_2</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1ae723f5914f38aeb2fb0ec67cd25052c4" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>test_3</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a756895c7f095bde068551c7f8b3e43fe" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>test_4</name></member>
+      <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a34105d8c6a033a3b7bd46501f92e1d57" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</scope><name>validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

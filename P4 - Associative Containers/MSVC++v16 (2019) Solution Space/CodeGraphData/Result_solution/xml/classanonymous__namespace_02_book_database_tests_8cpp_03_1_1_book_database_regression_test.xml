@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" kind="class" prot="public">
+    <compoundname>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a99eea02c98276b30195cce7ebbf4561b" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_regression_1_1_check_results" kindref="compound">Regression::CheckResults</ref></type>
+        <definition>Regression::CheckResults anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest::affirm</definition>
+        <argsstring></argsstring>
+        <name>affirm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" line="27" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1aa0d062f11860994776a41130def4d973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest::BookDatabaseRegressionTest</definition>
+        <argsstring>()</argsstring>
+        <name>BookDatabaseRegressionTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" line="22" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" bodystart="67" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest::tests</definition>
+        <argsstring>()</argsstring>
+        <name>tests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" line="25" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" bodystart="33" bodyend="63"/>
+        <references refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" compoundref="_book_database_8cpp" startline="78" endline="86">BookDatabase::find</references>
+        <references refid="class_book_database_1ac21ac248fbeaa4d38846f0f08213c3b5" compoundref="_book_database_8cpp" startline="14" endline="29">BookDatabase::instance</references>
+        <references refid="class_book_database_1ad7a0da3be246f111471fa42e6782e276" compoundref="_book_database_8cpp" startline="88" endline="91">BookDatabase::size</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>Regression::CheckResults</label>
+        <link refid="struct_regression_1_1_check_results"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>testResults</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>std::ios_base</label>
+      </node>
+      <node id="13">
+        <label>std::ostream</label>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::basic_ostream&lt; char &gt;</label>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</label>
+        <link refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>affirm</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" line="20" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" bodystart="19" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a99eea02c98276b30195cce7ebbf4561b" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</scope><name>affirm</name></member>
+      <member refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1aa0d062f11860994776a41130def4d973" prot="public" virt="non-virtual"><scope>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</scope><name>BookDatabaseRegressionTest</name></member>
+      <member refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</scope><name>tests</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

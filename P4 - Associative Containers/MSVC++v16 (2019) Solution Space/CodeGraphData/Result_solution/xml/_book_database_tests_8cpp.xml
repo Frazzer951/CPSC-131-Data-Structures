@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_book_database_tests_8cpp" kind="file">
+    <compoundname>BookDatabaseTests.cpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">exception</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/yvals_core.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/istream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/string</includes>
+    <includes local="no">string</includes>
+    <includes refid="_check_results_8hpp" local="yes">CheckResults.hpp</includes>
+    <includes refid="_book_database_8hpp" local="yes">BookDatabase.hpp</includes>
+    <incdepgraph>
+      <node id="129">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/istream</label>
+      </node>
+      <node id="125">
+        <label>iomanip</label>
+      </node>
+      <node id="124">
+        <label>filesystem</label>
+      </node>
+      <node id="121">
+        <label>cmath</label>
+      </node>
+      <node id="132">
+        <label>CheckResults.hpp</label>
+        <link refid="_check_results_8hpp"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>string</label>
+      </node>
+      <node id="136">
+        <label>map</label>
+      </node>
+      <node id="123">
+        <label>exception</label>
+      </node>
+      <node id="128">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/yvals_core.h</label>
+      </node>
+      <node id="138">
+        <label>string_view</label>
+      </node>
+      <node id="120">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp</label>
+        <link refid="BookDatabaseTests.cpp"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>sstream</label>
+      </node>
+      <node id="122">
+        <label>cstdlib</label>
+      </node>
+      <node id="126">
+        <label>iostream</label>
+      </node>
+      <node id="135">
+        <label>cstddef</label>
+      </node>
+      <node id="134">
+        <label>BookDatabase.hpp</label>
+        <link refid="_book_database_8hpp"/>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>type_traits</label>
+      </node>
+      <node id="137">
+        <label>Book.hpp</label>
+        <link refid="_book_8hpp"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" prot="public">anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</innerclass>
+    <innernamespace refid="namespaceanonymous__namespace_02_book_database_tests_8cpp_03">anonymous_namespace{BookDatabaseTests.cpp}</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>abs()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdlib&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>exit()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>exists()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>setprecision()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>boolalpha(),<sp/>showpoint(),<sp/>fixed()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>to_string()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_check_results_8hpp" kindref="compound">CheckResults.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_book_database_8hpp" kindref="compound">BookDatabase.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespaceanonymous__namespace_02_book_database_tests_8cpp_03" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/><sp/></highlight><highlight class="comment">//<sp/>anonymous</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" kindref="compound">BookDatabaseRegressionTest</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" kindref="compound">BookDatabaseRegressionTest</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tests();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a99eea02c98276b30195cce7ebbf4561b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_regression_1_1_check_results" kindref="compound">Regression::CheckResults</ref><sp/><ref refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a99eea02c98276b30195cce7ebbf4561b" kindref="member">affirm</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>}<sp/><ref refid="namespaceanonymous__namespace_02_book_database_tests_8cpp_03_1a1569c7f09ced740bf9d1f3c8eaffa1f5" kindref="member">run_bookDatabase_tests</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BookDatabaseRegressionTest::tests()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book_database" kindref="compound">BookDatabase</ref><sp/>&amp;<sp/>db<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="class_book_database_1ac21ac248fbeaa4d38846f0f08213c3b5" kindref="member">BookDatabase::instance</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><sp/><sp/><sp/>expectedSize<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>(<sp/>std::filesystem::exists(<sp/></highlight><highlight class="stringliteral">&quot;Open<sp/>Library<sp/>Database-Full.dat&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>)<sp/>)<sp/>expectedSize<sp/>=<sp/>10</highlight><highlight class="stringliteral">&apos;837&apos;</highlight><highlight class="normal">828;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>std::filesystem::exists(<sp/></highlight><highlight class="stringliteral">&quot;Open<sp/>Library<sp/>Database-Large.dat&quot;</highlight><highlight class="normal"><sp/><sp/>)<sp/>)<sp/>expectedSize<sp/>=<sp/>104</highlight><highlight class="stringliteral">&apos;003;</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>else<sp/>if(<sp/>std::filesystem::exists(<sp/>&quot;Open<sp/>Library<sp/>Database-Medium.dat&quot;<sp/>)<sp/>)<sp/>expectedSize<sp/>=<sp/>10&apos;</highlight><highlight class="normal">003;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>std::filesystem::exists(<sp/></highlight><highlight class="stringliteral">&quot;Open<sp/>Library<sp/>Database-Small.dat&quot;</highlight><highlight class="normal"><sp/><sp/>)<sp/>)<sp/>expectedSize<sp/>=<sp/>203;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>std::filesystem::exists(<sp/></highlight><highlight class="stringliteral">&quot;Sample_Book_Database.dat&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>)<sp/>expectedSize<sp/>=<sp/>211;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Database<sp/>construction<sp/>-<sp/>Expected<sp/>size&quot;</highlight><highlight class="normal">,<sp/>expectedSize,<sp/>db.<ref refid="class_book_database_1ad7a0da3be246f111471fa42e6782e276" kindref="member">size</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>book<sp/>=<sp/>db.<ref refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" kindref="member">find</ref>(<sp/></highlight><highlight class="stringliteral">&quot;0001034359&quot;</highlight><highlight class="normal"><sp/>);<sp/>book<sp/>==<sp/>nullptr<sp/>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Database<sp/>query<sp/>-<sp/>existing<sp/>book<sp/>should<sp/>have<sp/>been<sp/>found,<sp/>but<sp/>it<sp/>wasn&apos;t&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;non-null<sp/>pointer&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;nullptr&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Database<sp/>query<sp/>-<sp/>existing<sp/>book<sp/>located&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Tales<sp/>of<sp/>Hans<sp/>Christian<sp/>Andersen<sp/>;<sp/>\n<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>read<sp/>by<sp/>Michael<sp/>Redgrave.<sp/>(1st<sp/>edition)&quot;</highlight><highlight class="normal">,<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Hans<sp/>Christian<sp/>Andersen&quot;</highlight><highlight class="normal">,<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;0001034359&quot;</highlight><highlight class="normal">,<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>99.92<sp/>),</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*book<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>book<sp/>=<sp/>db.<ref refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" kindref="member">find</ref>(<sp/></highlight><highlight class="stringliteral">&quot;--------------&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Database<sp/>query<sp/>-<sp/>non-existing<sp/>book<sp/>found<sp/>when<sp/>it<sp/>shouldn&apos;t<sp/>have<sp/>been&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>book<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1aa0d062f11860994776a41130def4d973" refkind="member"><highlight class="normal"><sp/><sp/>BookDatabaseRegressionTest::BookDatabaseRegressionTest()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/>std::boolalpha<sp/>&lt;&lt;<sp/>std::showpoint<sp/>&lt;&lt;<sp/>std::fixed<sp/>&lt;&lt;<sp/>std::setprecision(<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nBook<sp/>Database<sp/>Regression<sp/>Test:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>tests();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/>affirm<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception<sp/>&amp;<sp/>ex<sp/>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FAILURE:<sp/><sp/>Regression<sp/>test<sp/>for<sp/>\&quot;class<sp/>Book\&quot;<sp/>failed<sp/>with<sp/>an<sp/>unhandled<sp/>exception.<sp/>\n\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>ex.what()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp"/>
+  </compounddef>
+</doxygen>

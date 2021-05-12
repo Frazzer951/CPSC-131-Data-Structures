@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_regression_1_1_check_results" kind="struct" prot="public">
+    <compoundname>Regression::CheckResults</compoundname>
+    <includes refid="_check_results_8hpp" local="no">CheckResults.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_regression_1_1_check_results_1a2f3c0c72b4ad488624cbc8a4aa8d527e" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned Regression::CheckResults::testCount</definition>
+        <argsstring></argsstring>
+        <name>testCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="22" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" compoundref="_check_results_8hpp" startline="60" endline="79">is_equal</referencedby>
+        <referencedby refid="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" compoundref="_check_results_8hpp" startline="84" endline="103">is_not_equal</referencedby>
+        <referencedby refid="namespace_regression_1a82a1d79c9c0e425e91e3d9c1d08159e7" compoundref="_check_results_8hpp" startline="41" endline="48">Regression::operator&lt;&lt;</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_regression_1_1_check_results_1a67568ec0b9351dd134c95bfb3a242490" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned Regression::CheckResults::testsPassed</definition>
+        <argsstring></argsstring>
+        <name>testsPassed</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="23" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" compoundref="_check_results_8hpp" startline="60" endline="79">is_equal</referencedby>
+        <referencedby refid="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" compoundref="_check_results_8hpp" startline="84" endline="103">is_not_equal</referencedby>
+        <referencedby refid="namespace_regression_1a82a1d79c9c0e425e91e3d9c1d08159e7" compoundref="_check_results_8hpp" startline="41" endline="48">Regression::operator&lt;&lt;</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_regression_1_1_check_results_1a6533c1ecd6191d0038d2dcd07032f712" prot="public" static="no" mutable="no">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; Regression::CheckResults::testResults</definition>
+        <argsstring></argsstring>
+        <name>testResults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="24" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="24" bodyend="-1"/>
+        <referencedby refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" compoundref="_check_results_8hpp" startline="60" endline="79">is_equal</referencedby>
+        <referencedby refid="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" compoundref="_check_results_8hpp" startline="84" endline="103">is_not_equal</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1a0aa74f09af55d885d09f274d888ec818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Regression::CheckResults::CheckResults</definition>
+        <argsstring>(std::ostream &amp;stream=std::clog)</argsstring>
+        <name>CheckResults</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>stream</declname>
+          <defval>std::clog</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="13" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="36" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1a46a80ba5fecc81a75c20ab8294379df4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_true</definition>
+        <argsstring>(const std::string &amp;nameOfTest, bool actual)</argsstring>
+        <name>is_true</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="14" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="52" bodyend="55"/>
+        <references refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" compoundref="_check_results_8hpp" startline="60" endline="79">is_equal</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_equal</definition>
+        <argsstring>(const std::string &amp;nameOfTest, const T &amp;expected, const U &amp;actual)</argsstring>
+        <name>is_equal</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="15" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="60" bodyend="79"/>
+        <references refid="namespace_regression_1a1e7008b4904cc51765e347180df94d0a" compoundref="_check_results_8hpp" startline="9">Regression::EPSILON</references>
+        <references refid="struct_regression_1_1_check_results_1a2f3c0c72b4ad488624cbc8a4aa8d527e" compoundref="_check_results_8hpp" startline="22">testCount</references>
+        <references refid="struct_regression_1_1_check_results_1a6533c1ecd6191d0038d2dcd07032f712" compoundref="_check_results_8hpp" startline="24">testResults</references>
+        <references refid="struct_regression_1_1_check_results_1a67568ec0b9351dd134c95bfb3a242490" compoundref="_check_results_8hpp" startline="23">testsPassed</references>
+        <referencedby refid="struct_regression_1_1_check_results_1a46a80ba5fecc81a75c20ab8294379df4" compoundref="_check_results_8hpp" startline="52" endline="55">is_true</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_not_equal</definition>
+        <argsstring>(const std::string &amp;nameOfTest, const T &amp;expected, const U &amp;actual)</argsstring>
+        <name>is_not_equal</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="16" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="84" bodyend="103"/>
+        <references refid="namespace_regression_1a1e7008b4904cc51765e347180df94d0a" compoundref="_check_results_8hpp" startline="9">Regression::EPSILON</references>
+        <references refid="struct_regression_1_1_check_results_1a2f3c0c72b4ad488624cbc8a4aa8d527e" compoundref="_check_results_8hpp" startline="22">testCount</references>
+        <references refid="struct_regression_1_1_check_results_1a6533c1ecd6191d0038d2dcd07032f712" compoundref="_check_results_8hpp" startline="24">testResults</references>
+        <references refid="struct_regression_1_1_check_results_1a67568ec0b9351dd134c95bfb3a242490" compoundref="_check_results_8hpp" startline="23">testsPassed</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1a19766d8f965cbd06baac02fa69f9cd12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_less_than</definition>
+        <argsstring>(const std::string &amp;nameOfTest, const T &amp;expected, const U &amp;actual)</argsstring>
+        <name>is_less_than</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1ae8ce8a0148ab20f4c4e7b10059e2d22e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_less_than_or_equal_to</definition>
+        <argsstring>(const std::string &amp;nameOfTest, const T &amp;expected, const U &amp;actual)</argsstring>
+        <name>is_less_than_or_equal_to</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1a61b6ba6634b3a8ac4866c5416d73b1aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_greater_than</definition>
+        <argsstring>(const std::string &amp;nameOfTest, const T &amp;expected, const U &amp;actual)</argsstring>
+        <name>is_greater_than</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_regression_1_1_check_results_1ac32f73086d2fa4e0ec579f77cb4d90c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Regression::CheckResults::is_greater_than_or_equal_to</definition>
+        <argsstring>(const std::string &amp;nameOfTest, const T &amp;expected, const U &amp;actual)</argsstring>
+        <name>is_greater_than_or_equal_to</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nameOfTest</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="40">
+        <label>Regression::CheckResults</label>
+        <link refid="struct_regression_1_1_check_results"/>
+        <childnode refid="41" relation="usage">
+          <edgelabel>testResults</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>std::ios_base</label>
+      </node>
+      <node id="41">
+        <label>std::ostream</label>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>std::basic_ostream&lt; char &gt;</label>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" line="12" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/CheckResults.hpp" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_regression_1_1_check_results_1a0aa74f09af55d885d09f274d888ec818" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>CheckResults</name></member>
+      <member refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_equal</name></member>
+      <member refid="struct_regression_1_1_check_results_1a61b6ba6634b3a8ac4866c5416d73b1aa" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_greater_than</name></member>
+      <member refid="struct_regression_1_1_check_results_1ac32f73086d2fa4e0ec579f77cb4d90c4" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_greater_than_or_equal_to</name></member>
+      <member refid="struct_regression_1_1_check_results_1a19766d8f965cbd06baac02fa69f9cd12" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_less_than</name></member>
+      <member refid="struct_regression_1_1_check_results_1ae8ce8a0148ab20f4c4e7b10059e2d22e" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_less_than_or_equal_to</name></member>
+      <member refid="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_not_equal</name></member>
+      <member refid="struct_regression_1_1_check_results_1a46a80ba5fecc81a75c20ab8294379df4" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>is_true</name></member>
+      <member refid="struct_regression_1_1_check_results_1a2f3c0c72b4ad488624cbc8a4aa8d527e" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>testCount</name></member>
+      <member refid="struct_regression_1_1_check_results_1a6533c1ecd6191d0038d2dcd07032f712" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>testResults</name></member>
+      <member refid="struct_regression_1_1_check_results_1a67568ec0b9351dd134c95bfb3a242490" prot="public" virt="non-virtual"><scope>Regression::CheckResults</scope><name>testsPassed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

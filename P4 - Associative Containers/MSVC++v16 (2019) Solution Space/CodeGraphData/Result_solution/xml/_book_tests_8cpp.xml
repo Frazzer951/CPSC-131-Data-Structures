@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_book_tests_8cpp" kind="file">
+    <compoundname>BookTests.cpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes local="no">exception</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">sstream</includes>
+    <includes refid="_book_8hpp" local="yes">Book.hpp</includes>
+    <includes refid="_check_results_8hpp" local="yes">CheckResults.hpp</includes>
+    <incdepgraph>
+      <node id="185">
+        <label>iomanip</label>
+      </node>
+      <node id="183">
+        <label>cmath</label>
+      </node>
+      <node id="191">
+        <label>CheckResults.hpp</label>
+        <link refid="_check_results_8hpp"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>string</label>
+      </node>
+      <node id="184">
+        <label>exception</label>
+      </node>
+      <node id="190">
+        <label>string_view</label>
+      </node>
+      <node id="187">
+        <label>sstream</label>
+      </node>
+      <node id="186">
+        <label>iostream</label>
+      </node>
+      <node id="182">
+        <label>Z:/P4 - Associative Containers/SourceCode/BookTests.cpp</label>
+        <link refid="BookTests.cpp"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>type_traits</label>
+      </node>
+      <node id="188">
+        <label>Book.hpp</label>
+        <link refid="_book_8hpp"/>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" prot="public">anonymous_namespace{BookTests.cpp}::BookRegressionTest</innerclass>
+    <innernamespace refid="namespaceanonymous__namespace_02_book_tests_8cpp_03">anonymous_namespace{BookTests.cpp}</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>abs(),<sp/>ceil(),<sp/>log10()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>setprecision()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>boolalpha(),<sp/>showpoint(),<sp/>fixed()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_book_8hpp" kindref="compound">Book.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_check_results_8hpp" kindref="compound">CheckResults.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespaceanonymous__namespace_02_book_tests_8cpp_03" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/><sp/></highlight><highlight class="comment">//<sp/>anonymous</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a7fa8851a286f8e094935c4bcf897dc1f" refkind="member"><highlight class="normal"><sp/><sp/>constexpr<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" kindref="member">EPSILON</ref><sp/>=<sp/>1E-4;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" kindref="compound">BookRegressionTest</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" kindref="compound">BookRegressionTest</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>construction();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>io<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>comparison<sp/><sp/>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1ae9f0b9c1e103b85f6e23185649044e2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_regression_1_1_check_results" kindref="compound">Regression::CheckResults</ref><sp/><ref refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1ae9f0b9c1e103b85f6e23185649044e2c" kindref="member">affirm</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>}<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1acec3491fa2c9c7c730da0585655845c6" kindref="member">run_book_tests</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a839c50729a6d19fd670cddcc40a7841d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BookRegressionTest::construction()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>b1,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b2(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b3(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b4(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>ISBN&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b5(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>ISBN&quot;</highlight><highlight class="normal">,<sp/>123.79<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Default<sp/>price&quot;</highlight><highlight class="normal">,<sp/>b1.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>(),<sp/>0.0<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>b1.<ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref>(<sp/></highlight><highlight class="stringliteral">&quot;1-3-5&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Title<sp/>mutator/query&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;1-3-5&quot;</highlight><highlight class="normal">,<sp/>b1.<ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>b1.<ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>(<sp/></highlight><highlight class="stringliteral">&quot;21-23-25&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Author<sp/>mutator/query&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;21-23-25&quot;</highlight><highlight class="normal">,<sp/>b1.<ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>b1.<ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref>(<sp/></highlight><highlight class="stringliteral">&quot;11-13-15&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>ISBN<sp/>code<sp/>mutator/query&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;11-13-15&quot;</highlight><highlight class="normal">,<sp/>b1.<ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>b1.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>(<sp/>31.11<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Price<sp/>mutator/query&quot;</highlight><highlight class="normal">,<sp/>31.11,<sp/>b1.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>construction<sp/>with<sp/>arguments&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b2.title()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b3.title()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>b3.author()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b4.title()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>b4.author()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>b4.isbn()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>ISBN&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b5.<ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref>()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>b5.<ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>b5.<ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref>()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>ISBN&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>std::abs(b5.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>-<sp/>123.79)<sp/>&lt;<sp/><ref refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" kindref="member">EPSILON</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>b6(<sp/>b5<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;Copy<sp/>construction&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b6.<ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref>()<sp/><sp/><sp/><sp/>==<sp/><sp/>b5.<ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b6.<ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>()<sp/><sp/><sp/>==<sp/><sp/>b5.<ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b6.<ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref>()<sp/><sp/><sp/><sp/><sp/>==<sp/><sp/>b5.<ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref>()</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>std::abs(b6.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>-<sp/>b5.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>())<sp/>&lt;<sp/>EPSILON</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>b6<sp/>=<sp/>b4;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;Copy<sp/>construction&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b6.<ref refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kindref="member">title</ref>()<sp/><sp/><sp/><sp/>==<sp/><sp/>b4.title()</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b6.<ref refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kindref="member">author</ref>()<sp/><sp/><sp/>==<sp/><sp/>b4.author()</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>b6.<ref refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kindref="member">isbn</ref>()<sp/><sp/><sp/><sp/><sp/>==<sp/><sp/>b4.isbn()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>std::abs(b6.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>-<sp/>b4.price())<sp/>&lt;<sp/>EPSILON</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a3d9388f1735e41cc3b97fbcb7c69bc05" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BookRegressionTest::io()</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><sp/></highlight><highlight class="comment">//<sp/>Input<sp/>parsing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::istringstream<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" kindref="member">stream</ref>(<sp/>R</highlight><highlight class="stringliteral">&quot;~~(<sp/>&quot;0000171921&quot;,&quot;Linux<sp/>commands<sp/>&amp;<sp/>resources<sp/>directory<sp/>-<sp/>1st<sp/>ed&quot;,&quot;Howard<sp/>L.<sp/>Goldberg&quot;,56.69</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;0000370096&quot;,<sp/>&quot;Where<sp/>eagles<sp/>dare&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Norah<sp/>Woollard&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>118.07</highlight></codeline>
+<codeline lineno="92"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="93"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;0001005340&quot;<sp/><sp/><sp/><sp/>,<sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Little<sp/>Grey<sp/>Rabbit&apos;s<sp/>Birthday&quot;,<sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Alison<sp/>\&quot;Ally\&quot;<sp/>Uttley&quot;,<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>31.57<sp/>&quot;0001062417&quot;,<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Early<sp/>aircraft&quot;,<sp/>&quot;Allward,<sp/>Maurice<sp/>F.&quot;,</highlight></codeline>
+<codeline lineno="98"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>65.65</highlight></codeline>
+<codeline lineno="99"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="100"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;0001051776&quot;<sp/>,<sp/>&quot;The<sp/><sp/>poems<sp/>of<sp/>Rudyard<sp/>Kipling&quot;,<sp/>&quot;Rudyard<sp/>Kipling&quot;,<sp/>26.45</highlight></codeline>
+<codeline lineno="101"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="102"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;00000000000000&quot;,<sp/>&quot;incomplete<sp/>/<sp/>invalid<sp/>book&quot;</highlight></codeline>
+<codeline lineno="103"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)~~&quot;<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="105"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>t1,<sp/>t2,<sp/>t3,<sp/>t4,<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" kindref="member">t5</ref>,<sp/>t6;</highlight></codeline>
+<codeline lineno="106"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>stream<sp/>&gt;&gt;<sp/>t1<sp/>&gt;&gt;<sp/>t2<sp/>&gt;&gt;<sp/>t3<sp/>&gt;&gt;<sp/>t4<sp/>&gt;&gt;<sp/>t5<sp/>&gt;&gt;<sp/>t6;</highlight></codeline>
+<codeline lineno="107"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="108"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>input<sp/>parsing<sp/>1&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Linux<sp/>commands<sp/>&amp;<sp/>resources<sp/>directory<sp/>-<sp/>1st<sp/>ed&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Howard<sp/>L.<sp/>Goldberg&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;0000171921&quot;</highlight><highlight class="normal">,<sp/>56.69<sp/><sp/>},<sp/>t1<sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>input<sp/>parsing<sp/>2&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Where<sp/>eagles<sp/>dare&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Norah<sp/>Woollard&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;0000370096&quot;</highlight><highlight class="normal">,<sp/>118.07<sp/>},<sp/>t2<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>input<sp/>parsing<sp/>3&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Little<sp/>Grey<sp/>Rabbit&apos;s<sp/>Birthday&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Alison<sp/>\&quot;Ally\&quot;<sp/>Uttley&quot;</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="stringliteral">&quot;0001005340&quot;</highlight><highlight class="normal">,<sp/>31.57<sp/><sp/>},<sp/>t3<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>input<sp/>parsing<sp/>4&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Early<sp/>aircraft&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Allward,<sp/>Maurice<sp/>F.&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;0001062417&quot;</highlight><highlight class="normal">,<sp/>65.65<sp/><sp/>},<sp/>t4<sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>input<sp/>parsing<sp/>5&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;The<sp/><sp/>poems<sp/>of<sp/>Rudyard<sp/>Kipling&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Rudyard<sp/>Kipling&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;0001051776&quot;</highlight><highlight class="normal">,<sp/>26.45<sp/><sp/>},<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" kindref="member">t5</ref><sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Book<sp/>input<sp/>parsing<sp/>6&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_book" kindref="compound">Book</ref>(),<sp/>t6<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116" refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><sp/></highlight><highlight class="comment">//<sp/>read<sp/>what<sp/>you<sp/>write</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>b1,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b2(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal"><sp/>),</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b3(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal"><sp/>),</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b4(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>ISBN&quot;</highlight><highlight class="normal"><sp/>),</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b5(<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>title&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>author&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;book&apos;s<sp/>ISBN&quot;</highlight><highlight class="normal">,<sp/>123.79<sp/>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::stringstream<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" kindref="member">stream</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>stream<sp/>&lt;&lt;<sp/>b1<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>b2<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>b3<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>b4<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>b5;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>t1,<sp/>t2,<sp/>t3,<sp/>t4,<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" kindref="member">t5</ref>;</highlight></codeline>
+<codeline lineno="132" refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>stream<sp/>&gt;&gt;<sp/>t1<sp/>&gt;&gt;<sp/>t2<sp/>&gt;&gt;<sp/>t3<sp/>&gt;&gt;<sp/>t4<sp/>&gt;&gt;<sp/><ref refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" kindref="member">t5</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Book<sp/>insertion<sp/>and<sp/>extraction<sp/>1&quot;</highlight><highlight class="normal">,<sp/>b1,<sp/>t1<sp/>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Book<sp/>insertion<sp/>and<sp/>extraction<sp/>2&quot;</highlight><highlight class="normal">,<sp/>b2,<sp/>t2<sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Book<sp/>insertion<sp/>and<sp/>extraction<sp/>3&quot;</highlight><highlight class="normal">,<sp/>b3,<sp/>t3<sp/>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Book<sp/>insertion<sp/>and<sp/>extraction<sp/>4&quot;</highlight><highlight class="normal">,<sp/>b4,<sp/>t4<sp/>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>affirm.is_equal(<sp/></highlight><highlight class="stringliteral">&quot;Symmetrical<sp/>Book<sp/>insertion<sp/>and<sp/>extraction<sp/>5&quot;</highlight><highlight class="normal">,<sp/>b5,<sp/>t5<sp/>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1acc45754b9767d0844a850fa6820eb7c1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BookRegressionTest::comparison()</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>less(<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>10.0<sp/>),<sp/>more(less);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Be<sp/>careful<sp/>-<sp/>using<sp/>affirm.xxx()<sp/>may<sp/>hide<sp/>the<sp/>class-under-test<sp/>overloaded<sp/>operators.<sp/><sp/>But<sp/>affirm.is_true()<sp/>doesn&apos;t<sp/>provide<sp/>as</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>much<sp/>information<sp/>when<sp/>the<sp/>test<sp/>fails.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal<sp/><sp/><sp/><sp/>(<sp/></highlight><highlight class="stringliteral">&quot;Equality<sp/>test<sp/>-<sp/>is<sp/>equal<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/>more<sp/>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal<sp/><sp/><sp/><sp/>(<sp/></highlight><highlight class="stringliteral">&quot;Equality<sp/>test<sp/>-<sp/>floating<sp/>point<sp/>lower<sp/>limit<sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>less.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>-<sp/>EPSILON}<sp/>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_equal<sp/><sp/><sp/><sp/>(<sp/></highlight><highlight class="stringliteral">&quot;Equality<sp/>test<sp/>-<sp/>floating<sp/>point<sp/>upper<sp/>limit<sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>less.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>+<sp/>EPSILON}<sp/>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_not_equal(<sp/></highlight><highlight class="stringliteral">&quot;Inequality<sp/>Title<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;b1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>10.0}<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_not_equal(<sp/></highlight><highlight class="stringliteral">&quot;Inequality<sp/>Author<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;b1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>10.0}<sp/>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_not_equal(<sp/></highlight><highlight class="stringliteral">&quot;Inequality<sp/>ISBN<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;b1&quot;</highlight><highlight class="normal">,<sp/>10.0}<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_not_equal(<sp/></highlight><highlight class="stringliteral">&quot;Inequality<sp/>Price<sp/>test<sp/>-<sp/>lower<sp/>limit<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>less.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>-<sp/>(<sp/>2<sp/>*<sp/><ref refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" kindref="member">EPSILON</ref><sp/>)}<sp/>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_not_equal(<sp/></highlight><highlight class="stringliteral">&quot;Inequality<sp/>Price<sp/>test<sp/>-<sp/>upper<sp/>limit<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>less,<sp/><ref refid="class_book" kindref="compound">Book</ref><sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>less.<ref refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kindref="member">price</ref>()<sp/>+<sp/>(<sp/>2<sp/>*<sp/><ref refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" kindref="member">EPSILON</ref><sp/>)}<sp/>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>check<sp/>=<sp/>[&amp;]()</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Exercise<sp/>all<sp/>relational<sp/>operators<sp/>for<sp/>the<sp/>class-under-test.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>less<sp/>&lt;<sp/><sp/>more</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>less<sp/>&lt;=<sp/>more</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>more<sp/>&gt;<sp/><sp/>less</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>more<sp/>&gt;=<sp/>less;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>more<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>11.0};</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true(<sp/></highlight><highlight class="stringliteral">&quot;Relational<sp/>Price<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>check()<sp/>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>more<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;a2&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>9.0};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true(<sp/></highlight><highlight class="stringliteral">&quot;Relational<sp/>Title<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>check()<sp/>);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>more<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;a0&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a2&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a1&quot;</highlight><highlight class="normal">,<sp/>9.0};</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true(<sp/></highlight><highlight class="stringliteral">&quot;Relational<sp/>Author<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>check()<sp/>);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>more<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;a0&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a0&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;a2&quot;</highlight><highlight class="normal">,<sp/>9.0};</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>affirm.is_true(<sp/></highlight><highlight class="stringliteral">&quot;Relational<sp/>ISBN<sp/>test<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">,<sp/>check()<sp/>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a0110591c3bd1dcd73a0851c2372613ce" refkind="member"><highlight class="normal"><sp/><sp/>BookRegressionTest::BookRegressionTest()</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/>std::boolalpha<sp/>&lt;&lt;<sp/>std::showpoint<sp/>&lt;&lt;<sp/>std::fixed<sp/>&lt;&lt;<sp/>std::setprecision(<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nBook<sp/>Regression<sp/>Test:<sp/><sp/>Construction\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>construction();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nBook<sp/>Regression<sp/>Test:<sp/><sp/>Relational<sp/>comparisons\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>previousPrecision<sp/>=<sp/>std::clog.precision(<sp/>static_cast&lt;std::streamsize&gt;(<sp/>std::ceil(<sp/>-std::log10(<sp/>EPSILON<sp/>)<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>comparison();</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog.precision(<sp/>previousPrecision<sp/>);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\nBook<sp/>Regression<sp/>Test:<sp/><sp/>Input/Output\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>io<sp/>();</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/>affirm<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception<sp/>&amp;<sp/>ex<sp/>)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::clog<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;FAILURE:<sp/><sp/>Regression<sp/>test<sp/>for<sp/>\&quot;class<sp/>Book\&quot;<sp/>failed<sp/>with<sp/>an<sp/>unhandled<sp/>exception.<sp/>\n\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>ex.what()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp"/>
+  </compounddef>
+</doxygen>

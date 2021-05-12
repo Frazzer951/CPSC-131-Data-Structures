@@ -1,0 +1,114 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks":
+    [
+      { "label": "Build All with g++ (Debug)",
+        "type": "shell",
+        "options": {
+          "env": {
+            "Compiler": "g++",
+            "Options": "-g3 -O0",
+            "Executable": "${workspaceFolder}/project.exe",
+            "CPATH": ":${workspaceFolder}"
+          }
+        },
+        "command": ".vscode/Build.sh",
+        "args": [
+          "Build All with g++ (Debug)"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "clear": true,
+          "echo": false,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared",
+          "showReuseMessage": false
+        },
+        "problemMatcher": "$gcc"
+      },
+
+      { "label": "Build All with g++ (Release)",
+        "type": "shell",
+        "options": {
+          "env": {
+            "Compiler": "g++",
+            "Options": "-g0 -O3 -DNDEBUG",
+            "Executable": "${workspaceFolder}/project.exe",
+            "CPATH": ":${workspaceFolder}"
+          }
+        },
+        "command": ".vscode/Build.sh",
+        "args": [
+          "Build All with g++ (Release)"
+        ],
+        "group": "build",
+        "presentation": {
+          "clear": true,
+          "echo": false,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared",
+          "showReuseMessage": false
+        },
+        "problemMatcher": "$gcc"
+      },
+
+      { "label": "Build All with Clang (Debug)",
+        "type": "shell",
+        "options": {
+          "env": {
+            "Compiler": "clang++",
+            "Options": "-g -O0",
+            "Executable": "${workspaceFolder}/project.exe",
+            "CPATH": ":${workspaceFolder}"
+          }
+        },
+        "command": ".vscode/Build.sh",
+        "args": [
+          "Build All with Clang++ (Debug)"
+        ],
+        "group": "build",
+        "presentation": {
+          "clear": true,
+          "echo": false,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared",
+          "showReuseMessage": false
+        },
+        "problemMatcher": "$gcc"
+      },
+
+      { "label": "Build All with Clang (Release)",
+        "type": "shell",
+        "options": {
+          "env": {
+            "Compiler": "clang++",
+            "Options": "-g0 -O3 -DNDEBUG",
+            "Executable": "${workspaceFolder}/project.exe",
+            "CPATH": ":${workspaceFolder}"
+          }
+        },
+        "command": ".vscode/Build.sh",
+        "args": [
+          "Build All with Clang++ (Release)"
+        ],
+        "group": "build",
+        "presentation": {
+          "clear": true,
+          "echo": false,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared",
+          "showReuseMessage": false
+        },
+        "problemMatcher": "$gcc"
+      }
+     ]
+}

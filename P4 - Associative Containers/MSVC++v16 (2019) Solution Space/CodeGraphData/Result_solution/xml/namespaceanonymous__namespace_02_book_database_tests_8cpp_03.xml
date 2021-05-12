@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceanonymous__namespace_02_book_database_tests_8cpp_03" kind="namespace">
+    <compoundname>anonymous_namespace{BookDatabaseTests.cpp}</compoundname>
+    <innerclass refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" prot="public">anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceanonymous__namespace_02_book_database_tests_8cpp_03_1a1569c7f09ced740bf9d1f3c8eaffa1f5" prot="public" static="no" mutable="no">
+        <type>class anonymous_namespace{BookDatabaseTests.cpp}::<ref refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" kindref="compound">BookDatabaseRegressionTest</ref></type>
+        <definition>class anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest  anonymous_namespace{BookDatabaseTests.cpp}::run_bookDatabase_tests</definition>
+        <argsstring></argsstring>
+        <name>run_bookDatabase_tests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookDatabaseTests.cpp" line="18" column="1"/>
+  </compounddef>
+</doxygen>

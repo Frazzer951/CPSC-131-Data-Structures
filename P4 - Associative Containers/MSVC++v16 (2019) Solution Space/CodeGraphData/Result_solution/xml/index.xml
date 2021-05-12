@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_book" kind="class"><name>Book</name>
+    <member refid="class_book_1af9ee41a2b7e172ce85d814713346cf76" kind="variable"><name>_isbn</name></member>
+    <member refid="class_book_1aac2573475ebcf9bf3589a05e176a5c21" kind="variable"><name>_title</name></member>
+    <member refid="class_book_1aa1be815cdb2d8e2f961dfbcd49cf9e8b" kind="variable"><name>_author</name></member>
+    <member refid="class_book_1aec9d079c0d1633c08c14fcac05695e8b" kind="variable"><name>_price</name></member>
+    <member refid="class_book_1ae97f4d7ff5ceedacbf3de30d6653ea00" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="class_book_1ad17000f82c12fb33fb4437d58b9eda36" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="class_book_1a116eb8dbb8114f9e5b00d44bf41774bd" kind="friend"><name>operator==</name></member>
+    <member refid="class_book_1aa108cc0b25789ae25ff47fa6ac646a9f" kind="friend"><name>operator&lt;</name></member>
+    <member refid="class_book_1a1260973684ff983cb48b3e579b6b3553" kind="function"><name>Book</name></member>
+    <member refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" kind="function"><name>isbn</name></member>
+    <member refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" kind="function"><name>title</name></member>
+    <member refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" kind="function"><name>author</name></member>
+    <member refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" kind="function"><name>price</name></member>
+    <member refid="class_book_1a4b7d65e6aba08ccae3a23d5d7ef8ab76" kind="function"><name>isbn</name></member>
+    <member refid="class_book_1a4884bd2b9aae7fa4aeb5b4d45201b913" kind="function"><name>title</name></member>
+    <member refid="class_book_1a35c6e59f0b93f59b1aacd06a0c4dbfd7" kind="function"><name>author</name></member>
+    <member refid="class_book_1a086bcbfea468f9452f0756e9d0eb502d" kind="function"><name>price</name></member>
+  </compound>
+  <compound refid="class_book_database" kind="class"><name>BookDatabase</name>
+    <member refid="class_book_database_1a486b2b836609758527a5c90e8e0a2301" kind="variable"><name>_data</name></member>
+    <member refid="class_book_database_1ac21ac248fbeaa4d38846f0f08213c3b5" kind="function"><name>instance</name></member>
+    <member refid="class_book_database_1a6da886061bd5c42cdb0fa79dc35684d1" kind="function"><name>find</name></member>
+    <member refid="class_book_database_1ad7a0da3be246f111471fa42e6782e276" kind="function"><name>size</name></member>
+    <member refid="class_book_database_1ad3d6f50934ee8e0fa251a9c9c88d885a" kind="function"><name>BookDatabase</name></member>
+    <member refid="class_book_database_1acba6b9ba7efa71b503bfd39d90c74440" kind="function"><name>BookDatabase</name></member>
+    <member refid="class_book_database_1a4dfc522e38e40b0c4246f6e27cd4b1e3" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test" kind="class"><name>anonymous_namespace{BookDatabaseTests.cpp}::BookDatabaseRegressionTest</name>
+    <member refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a99eea02c98276b30195cce7ebbf4561b" kind="variable"><name>affirm</name></member>
+    <member refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1aa0d062f11860994776a41130def4d973" kind="function"><name>BookDatabaseRegressionTest</name></member>
+    <member refid="classanonymous__namespace_02_book_database_tests_8cpp_03_1_1_book_database_regression_test_1a9c2d617f8bf46f4739ada7059dd34eef" kind="function"><name>tests</name></member>
+  </compound>
+  <compound refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" kind="class"><name>anonymous_namespace{BookTests.cpp}::BookRegressionTest</name>
+    <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1ae9f0b9c1e103b85f6e23185649044e2c" kind="variable"><name>affirm</name></member>
+    <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a0110591c3bd1dcd73a0851c2372613ce" kind="function"><name>BookRegressionTest</name></member>
+    <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a839c50729a6d19fd670cddcc40a7841d" kind="function"><name>construction</name></member>
+    <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a3d9388f1735e41cc3b97fbcb7c69bc05" kind="function"><name>io</name></member>
+    <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1acc45754b9767d0844a850fa6820eb7c1" kind="function"><name>comparison</name></member>
+  </compound>
+  <compound refid="class_bookstore" kind="class"><name>Bookstore</name>
+    <member refid="class_bookstore_1a8a4586ed49d4d9f934215fd8ee3b1031" kind="typedef"><name>BooksSold</name></member>
+    <member refid="class_bookstore_1a011ecf363f27548abc41e399d536c27d" kind="typedef"><name>Inventory_DB</name></member>
+    <member refid="class_bookstore_1aec735b490f96dc3ea93e60c4dbec3ff0" kind="typedef"><name>ShoppingCart</name></member>
+    <member refid="class_bookstore_1aae615c92c10ffb6253f8e295700c18e8" kind="typedef"><name>ShoppingCarts</name></member>
+    <member refid="class_bookstore_1a852a485311e323bda07bb474fd39a1a2" kind="variable"><name>REORDER_THRESHOLD</name></member>
+    <member refid="class_bookstore_1a886df07eec29b5bbabf94147a6b818d4" kind="variable"><name>LOT_COUNT</name></member>
+    <member refid="class_bookstore_1a24d67309b2a1e464b183eeef6bbd5ca9" kind="variable"><name>_inventoryDB</name></member>
+    <member refid="class_bookstore_1afed5f4cac4a039e02bcab174058da680" kind="function"><name>Bookstore</name></member>
+    <member refid="class_bookstore_1ab6c5783c56572530b5a48c2c58ba119c" kind="function"><name>inventory</name></member>
+    <member refid="class_bookstore_1a2070d6b68ab700dd10fcb2ba94135a43" kind="function"><name>processCustomerShoppingCarts</name></member>
+    <member refid="class_bookstore_1ae22380272d6bb1c94ac620d95bc0ab3e" kind="function"><name>reorderItems</name></member>
+    <member refid="class_bookstore_1abb469147b72d1a9d258323c757495c66" kind="function"><name>makeShoppingCarts</name></member>
+  </compound>
+  <compound refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test" kind="class"><name>anonymous_namespace{BookstoreTests.cpp}::BookstoreRegressionTest</name>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a25655f854ed9d4de77c8f7499ce9b2a6" kind="variable"><name>affirm</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a7aaa241db5142f46444255693eb7e264" kind="variable"><name>expectedValues</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a3d5d8f44c6ab390559a44b37864e7b47" kind="function"><name>BookstoreRegressionTest</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a2c27ee2c1a41188540ca3049a955eb75" kind="function"><name>test_1</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a417ff27290e9ed7b3d02c86c3a5b0ca2" kind="function"><name>test_2</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1ae723f5914f38aeb2fb0ec67cd25052c4" kind="function"><name>test_3</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a756895c7f095bde068551c7f8b3e43fe" kind="function"><name>test_4</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_bookstore_regression_test_1a34105d8c6a033a3b7bd46501f92e1d57" kind="function"><name>validate</name></member>
+  </compound>
+  <compound refid="struct_regression_1_1_check_results" kind="struct"><name>Regression::CheckResults</name>
+    <member refid="struct_regression_1_1_check_results_1a2f3c0c72b4ad488624cbc8a4aa8d527e" kind="variable"><name>testCount</name></member>
+    <member refid="struct_regression_1_1_check_results_1a67568ec0b9351dd134c95bfb3a242490" kind="variable"><name>testsPassed</name></member>
+    <member refid="struct_regression_1_1_check_results_1a6533c1ecd6191d0038d2dcd07032f712" kind="variable"><name>testResults</name></member>
+    <member refid="struct_regression_1_1_check_results_1a0aa74f09af55d885d09f274d888ec818" kind="function"><name>CheckResults</name></member>
+    <member refid="struct_regression_1_1_check_results_1a46a80ba5fecc81a75c20ab8294379df4" kind="function"><name>is_true</name></member>
+    <member refid="struct_regression_1_1_check_results_1a6112043c99ea302463ce07f0b4a077a8" kind="function"><name>is_equal</name></member>
+    <member refid="struct_regression_1_1_check_results_1a41ec61029854cf4e0c111f47583d27ad" kind="function"><name>is_not_equal</name></member>
+    <member refid="struct_regression_1_1_check_results_1a19766d8f965cbd06baac02fa69f9cd12" kind="function"><name>is_less_than</name></member>
+    <member refid="struct_regression_1_1_check_results_1ae8ce8a0148ab20f4c4e7b10059e2d22e" kind="function"><name>is_less_than_or_equal_to</name></member>
+    <member refid="struct_regression_1_1_check_results_1a61b6ba6634b3a8ac4866c5416d73b1aa" kind="function"><name>is_greater_than</name></member>
+    <member refid="struct_regression_1_1_check_results_1ac32f73086d2fa4e0ec579f77cb4d90c4" kind="function"><name>is_greater_than_or_equal_to</name></member>
+  </compound>
+  <compound refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect" kind="class"><name>anonymous_namespace{BookstoreTests.cpp}::Redirect</name>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a0cf1e3eac97ff3c3f1f93c1ab4c1b267" kind="variable"><name>originalStream</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a2375d396fabd7bf5b4fa765139a7150a" kind="variable"><name>originalBuffer</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a4e55f5ce664f674c3b8e38efd6d71309" kind="function"><name>Redirect</name></member>
+    <member refid="classanonymous__namespace_02_bookstore_tests_8cpp_03_1_1_redirect_1a2fd7bac565580d07bc67756858143b94" kind="function"><name>~Redirect</name></member>
+  </compound>
+  <compound refid="namespaceanonymous__namespace_02_book_database_tests_8cpp_03" kind="namespace"><name>anonymous_namespace{BookDatabaseTests.cpp}</name>
+    <member refid="namespaceanonymous__namespace_02_book_database_tests_8cpp_03_1a1569c7f09ced740bf9d1f3c8eaffa1f5" kind="variable"><name>run_bookDatabase_tests</name></member>
+  </compound>
+  <compound refid="namespaceanonymous__namespace_02_bookstore_tests_8cpp_03" kind="namespace"><name>anonymous_namespace{BookstoreTests.cpp}</name>
+    <member refid="namespaceanonymous__namespace_02_bookstore_tests_8cpp_03_1a4d131e34f5acbc4ada56ed33b9d0eec7" kind="variable"><name>run_Bookstore_tests</name></member>
+  </compound>
+  <compound refid="namespaceanonymous__namespace_02_book_tests_8cpp_03" kind="namespace"><name>anonymous_namespace{BookTests.cpp}</name>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a7fa8851a286f8e094935c4bcf897dc1f" kind="variable"><name>EPSILON</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1acec3491fa2c9c7c730da0585655845c6" kind="variable"><name>run_book_tests</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" kind="variable"><name>stream</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" kind="variable"><name>t5</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1ad7c74a036bedd948cfdc5d9f1825d047" kind="function"><name>is_equal</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1aa8ddc5b178217ab84feaff872647270a" kind="function"><name>is_equal</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1ad37cb114784ca695772f9fad27dfbf1a" kind="function"><name>is_equal</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a42d0ed44a9cec43ce1b0a1826e6b85c0" kind="function"><name>is_equal</name></member>
+    <member refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a201e3e588179caf08c7032cb8904c35e" kind="function"><name>is_equal</name></member>
+  </compound>
+  <compound refid="namespace_regression" kind="namespace"><name>Regression</name>
+    <member refid="namespace_regression_1a1e7008b4904cc51765e347180df94d0a" kind="variable"><name>EPSILON</name></member>
+    <member refid="namespace_regression_1a82a1d79c9c0e425e91e3d9c1d08159e7" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_book_8cpp" kind="file"><name>Book.cpp</name>
+    <member refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" kind="variable"><name>EPSILON</name></member>
+    <member refid="_book_8cpp_1ae97f4d7ff5ceedacbf3de30d6653ea00" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="_book_8cpp_1ad17000f82c12fb33fb4437d58b9eda36" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="_book_8cpp_1a116eb8dbb8114f9e5b00d44bf41774bd" kind="function"><name>operator==</name></member>
+    <member refid="_book_8cpp_1aa108cc0b25789ae25ff47fa6ac646a9f" kind="function"><name>operator&lt;</name></member>
+    <member refid="_book_8cpp_1ae0ffeec014f9dba132534f4f8274b07a" kind="function"><name>operator!=</name></member>
+    <member refid="_book_8cpp_1a93a5779aeaefb985fdb7ea606bb8aa16" kind="function"><name>operator&lt;=</name></member>
+    <member refid="_book_8cpp_1a40fbc0a5e69dc8327f522847aecd0488" kind="function"><name>operator&gt;</name></member>
+    <member refid="_book_8cpp_1a8d55315e6231b0e129b4c950bd22ce53" kind="function"><name>operator&gt;=</name></member>
+  </compound>
+  <compound refid="_book_8hpp" kind="file"><name>Book.hpp</name>
+    <member refid="_book_8hpp_1a116eb8dbb8114f9e5b00d44bf41774bd" kind="function"><name>operator==</name></member>
+    <member refid="_book_8hpp_1ae0ffeec014f9dba132534f4f8274b07a" kind="function"><name>operator!=</name></member>
+    <member refid="_book_8hpp_1aa108cc0b25789ae25ff47fa6ac646a9f" kind="function"><name>operator&lt;</name></member>
+    <member refid="_book_8hpp_1a93a5779aeaefb985fdb7ea606bb8aa16" kind="function"><name>operator&lt;=</name></member>
+    <member refid="_book_8hpp_1a40fbc0a5e69dc8327f522847aecd0488" kind="function"><name>operator&gt;</name></member>
+    <member refid="_book_8hpp_1a8d55315e6231b0e129b4c950bd22ce53" kind="function"><name>operator&gt;=</name></member>
+  </compound>
+  <compound refid="_book_database_8cpp" kind="file"><name>BookDatabase.cpp</name>
+  </compound>
+  <compound refid="_book_database_8hpp" kind="file"><name>BookDatabase.hpp</name>
+  </compound>
+  <compound refid="_book_database_tests_8cpp" kind="file"><name>BookDatabaseTests.cpp</name>
+  </compound>
+  <compound refid="_bookstore_8cpp" kind="file"><name>Bookstore.cpp</name>
+  </compound>
+  <compound refid="_bookstore_8hpp" kind="file"><name>Bookstore.hpp</name>
+  </compound>
+  <compound refid="_bookstore_tests_8cpp" kind="file"><name>BookstoreTests.cpp</name>
+  </compound>
+  <compound refid="_book_tests_8cpp" kind="file"><name>BookTests.cpp</name>
+  </compound>
+  <compound refid="_check_results_8hpp" kind="file"><name>CheckResults.hpp</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_b72d80872838821c17a36193a5180a04" kind="dir"><name>Z:/P4 - Associative Containers</name>
+  </compound>
+  <compound refid="dir_0e6a64edf6fa2b4501163a842ee311d7" kind="dir"><name>Z:/P4 - Associative Containers/SourceCode</name>
+  </compound>
+  <compound refid="dir_0a31c64d9f1f2c74acde1e4feea70c37" kind="dir"><name>Z:</name>
+  </compound>
+</doxygenindex>

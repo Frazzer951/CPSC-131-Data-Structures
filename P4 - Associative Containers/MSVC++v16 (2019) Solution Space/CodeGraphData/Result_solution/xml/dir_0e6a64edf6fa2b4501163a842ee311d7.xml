@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0e6a64edf6fa2b4501163a842ee311d7" kind="dir">
+    <compoundname>Z:/P4 - Associative Containers/SourceCode</compoundname>
+    <innerfile refid="_book_8cpp">Book.cpp</innerfile>
+    <innerfile refid="_book_8hpp">Book.hpp</innerfile>
+    <innerfile refid="_book_database_8cpp">BookDatabase.cpp</innerfile>
+    <innerfile refid="_book_database_8hpp">BookDatabase.hpp</innerfile>
+    <innerfile refid="_book_database_tests_8cpp">BookDatabaseTests.cpp</innerfile>
+    <innerfile refid="_bookstore_8cpp">Bookstore.cpp</innerfile>
+    <innerfile refid="_bookstore_8hpp">Bookstore.hpp</innerfile>
+    <innerfile refid="_bookstore_tests_8cpp">BookstoreTests.cpp</innerfile>
+    <innerfile refid="_book_tests_8cpp">BookTests.cpp</innerfile>
+    <innerfile refid="_check_results_8hpp">CheckResults.hpp</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/P4 - Associative Containers/SourceCode/"/>
+  </compounddef>
+</doxygen>

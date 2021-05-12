@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {   "name": "Compile (g++) and Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "Build All with g++ (Debug)",
+            "program": "${workspaceFolder}/project.exe",
+            "args": [],                                         // Redirect Example:  "<", "Athletes.dat"
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "internalConsoleOptions": "neverOpen"
+        },
+
+        {   "name": "Compile (clang) and Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "Build All with Clang (Debug)",
+            "program": "${workspaceFolder}/project.exe",
+            "args": [],                                         // Redirect Example:  "<", "Athletes.dat"
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "internalConsoleOptions": "neverOpen"
+        },
+
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/project.exe",
+            "args": [],                      // Redirect Example:  "<", "Athletes.dat"
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "internalConsoleOptions": "neverOpen"
+        },
+    ]
+}

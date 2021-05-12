@@ -1,0 +1,344 @@
+
+Book Regression Test:  Construction
+  [PASSED] Default price: expected and actual '0.00' are equal
+  [PASSED] Symmetrical Title mutator/query: expected and actual '1-3-5' are equal
+  [PASSED] Symmetrical Author mutator/query: expected and actual '21-23-25' are equal
+  [PASSED] Symmetrical ISBN code mutator/query: expected and actual '11-13-15' are equal
+  [PASSED] Symmetrical Price mutator/query: expected and actual '31.11' are equal
+  [PASSED] Book construction with arguments: expected and actual 'true' are equal
+  [PASSED] Copy construction: expected and actual 'true' are equal
+  [PASSED] Copy construction: expected and actual 'true' are equal
+
+Book Regression Test:  Relational comparisons
+  [PASSED] Equality test - is equal                   : expected and actual '"a1",  "a1",  "a1",  10.0000' are equal
+  [PASSED] Equality test - floating point lower limit : expected and actual '"a1",  "a1",  "a1",  9.9999' are equal
+  [PASSED] Equality test - floating point upper limit : expected and actual '"a1",  "a1",  "a1",  10.0001' are equal
+  [PASSED] Inequality Title test                      : left hand side '"a1",  "a1",  "a1",  10.0000' is not equal to right hand side '"a1",  "b1",  "a1",  10.0000'
+  [PASSED] Inequality Author test                     : left hand side '"a1",  "a1",  "a1",  10.0000' is not equal to right hand side '"a1",  "a1",  "b1",  10.0000'
+  [PASSED] Inequality ISBN test                       : left hand side '"a1",  "a1",  "a1",  10.0000' is not equal to right hand side '"b1",  "a1",  "a1",  10.0000'
+  [PASSED] Inequality Price test - lower limit        : left hand side '"a1",  "a1",  "a1",  10.0000' is not equal to right hand side '"a1",  "a1",  "a1",  9.9998'
+  [PASSED] Inequality Price test - upper limit        : left hand side '"a1",  "a1",  "a1",  10.0000' is not equal to right hand side '"a1",  "a1",  "a1",  10.0002'
+  [PASSED] Relational Price test                      : expected and actual 'true' are equal
+  [PASSED] Relational Title test                      : expected and actual 'true' are equal
+  [PASSED] Relational Author test                     : expected and actual 'true' are equal
+  [PASSED] Relational ISBN test                       : expected and actual 'true' are equal
+
+Book Regression Test:  Input/Output
+  [PASSED] Book input parsing 1: expected and actual '"0000171921",  "Linux commands & resources directory - 1st ed",  "Howard L. Goldberg",  56.69' are equal
+  [PASSED] Book input parsing 2: expected and actual '"0000370096",  "Where eagles dare",  "Norah Woollard",  118.07' are equal
+  [PASSED] Book input parsing 3: expected and actual '"0001005340",  "Little Grey Rabbit's Birthday",  "Alison \"Ally\" Uttley",  31.57' are equal
+  [PASSED] Book input parsing 4: expected and actual '"0001062417",  "Early aircraft",  "Allward, Maurice F.",  65.65' are equal
+  [PASSED] Book input parsing 5: expected and actual '"0001051776",  "The  poems of Rudyard Kipling",  "Rudyard Kipling",  26.45' are equal
+  [PASSED] Book input parsing 6: expected and actual '"",  "",  "",  0.00' are equal
+  [PASSED] Symmetrical Book insertion and extraction 1: expected and actual '"",  "",  "",  0.00' are equal
+  [PASSED] Symmetrical Book insertion and extraction 2: expected and actual '"",  "book's title",  "",  0.00' are equal
+  [PASSED] Symmetrical Book insertion and extraction 3: expected and actual '"",  "book's title",  "book's author",  0.00' are equal
+  [PASSED] Symmetrical Book insertion and extraction 4: expected and actual '"book's ISBN",  "book's title",  "book's author",  0.00' are equal
+  [PASSED] Symmetrical Book insertion and extraction 5: expected and actual '"book's ISBN",  "book's title",  "book's author",  123.79' are equal
+
+
+Summary: 31 of 31 (100.00%) tests passed
+
+
+
+
+Book Database Regression Test:
+  [PASSED] Database construction - Expected size: expected and actual '211' are equal
+  [PASSED] Database query - existing book located: expected and actual '"0001034359",  "Tales of Hans Christian Andersen ; 
+                     read by Michael Redgrave. (1st edition)",  "Hans Christian Andersen",  99.92' are equal
+  [PASSED] Database query - non-existing book found when it shouldn't have been: expected and actual '0' are equal
+
+
+Summary: 3 of 3 (100.00%) tests passed
+
+
+
+After   0 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     131 Answer Key                                                       
+                     Les Mis                                                              
+                     Eat pray love                                                        
+                     Hunger Games                                                         
+                     =====================================================================
+
+
+
+After   1 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     131 Answer Key                                                       
+                     Les Mis                                                              
+                     Eat pray love                                                        
+                     Hunger Games           Like the Animals                              
+                     =====================================================================
+
+
+
+After   2 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Les Mis                                                              
+                     Eat pray love                                                        
+                     Hunger Games           Like the Animals       131 Answer Key         
+                     =====================================================================
+
+
+
+After   3 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Les Mis                                                              
+                     Eat pray love                                 Like the Animals       
+                     Hunger Games                                  131 Answer Key         
+                     =====================================================================
+
+
+
+After   4 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Eat pray love                                 Like the Animals       
+                     Hunger Games           Les Mis                131 Answer Key         
+                     =====================================================================
+
+
+
+After   5 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     Eat pray love                                                        
+                     Hunger Games           Les Mis                131 Answer Key         
+                     =====================================================================
+
+
+
+After   6 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     Eat pray love          131 Answer Key                                
+                     Hunger Games           Les Mis                                       
+                     =====================================================================
+
+
+
+After   7 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                     Eat pray love          131 Answer Key                                
+                     Hunger Games           Les Mis                                       
+                     =====================================================================
+
+
+
+After   8 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                                            131 Answer Key                                
+                     Hunger Games           Les Mis                Eat pray love          
+                     =====================================================================
+
+
+
+After   9 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            131 Answer Key         Like the Animals       
+                     Hunger Games           Les Mis                Eat pray love          
+                     =====================================================================
+
+
+
+After  10 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     131 Answer Key                                Like the Animals       
+                     Hunger Games           Les Mis                Eat pray love          
+                     =====================================================================
+
+
+
+After  11 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     131 Answer Key                                                       
+                     Hunger Games           Les Mis                Eat pray love          
+                     =====================================================================
+
+
+
+After  12 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     131 Answer Key                                Les Mis                
+                     Hunger Games                                  Eat pray love          
+                     =====================================================================
+
+
+
+After  13 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     131 Answer Key                                Les Mis                
+                     Hunger Games           Like the Animals       Eat pray love          
+                     =====================================================================
+
+
+
+After  14 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                                                   131 Answer Key         
+                                                                   Les Mis                
+                     Hunger Games           Like the Animals       Eat pray love          
+                     =====================================================================
+
+
+
+After  15 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                                                   Like the Animals       
+                                                                   131 Answer Key         
+                                                                   Les Mis                
+                     Hunger Games                                  Eat pray love          
+                     =====================================================================
+
+
+
+After  16 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                                                   Like the Animals       
+                                                                   131 Answer Key         
+                                                                   Les Mis                
+                                            Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  17 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                                                   131 Answer Key         
+                                                                   Les Mis                
+                     Like the Animals       Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  18 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            131 Answer Key         Les Mis                
+                     Like the Animals       Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  19 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                                            131 Answer Key         Les Mis                
+                                            Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  20 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                                            131 Answer Key                                
+                     Les Mis                Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  21 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            131 Answer Key         Like the Animals       
+                     Les Mis                Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  22 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     131 Answer Key                                Like the Animals       
+                     Les Mis                Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  23 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     131 Answer Key                                                       
+                     Les Mis                Hunger Games           Eat pray love          
+                     =====================================================================
+
+
+
+After  24 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                     Like the Animals                                                     
+                     131 Answer Key         Eat pray love                                 
+                     Les Mis                Hunger Games                                  
+                     =====================================================================
+
+
+
+After  25 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                     131 Answer Key         Eat pray love                                 
+                     Les Mis                Hunger Games                                  
+                     =====================================================================
+
+
+
+After  26 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                                            Eat pray love                                 
+                     Les Mis                Hunger Games           131 Answer Key         
+                     =====================================================================
+
+
+
+After  27 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Eat pray love          Like the Animals       
+                     Les Mis                Hunger Games           131 Answer Key         
+                     =====================================================================
+
+
+
+After  28 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Les Mis                                       
+                                            Eat pray love          Like the Animals       
+                                            Hunger Games           131 Answer Key         
+                     =====================================================================
+
+
+
+After  29 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Les Mis                                       
+                                            Eat pray love                                 
+                     Like the Animals       Hunger Games           131 Answer Key         
+                     =====================================================================
+
+
+
+After  30 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            131 Answer Key                                
+                                            Les Mis                                       
+                                            Eat pray love                                 
+                     Like the Animals       Hunger Games                                  
+                     =====================================================================
+
+
+
+After  31 moves:     Broken Cart            Working Cart           Spare Cart             
+                     ---------------------------------------------------------------------
+                                            Like the Animals                              
+                                            131 Answer Key                                
+                                            Les Mis                                       
+                                            Eat pray love                                 
+                                            Hunger Games                                  
+                     =====================================================================
+
+
+
+PASS - Amount due matches expected

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test" kind="class" prot="public">
+    <compoundname>anonymous_namespace{BookTests.cpp}::BookRegressionTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1ae9f0b9c1e103b85f6e23185649044e2c" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_regression_1_1_check_results" kindref="compound">Regression::CheckResults</ref></type>
+        <definition>Regression::CheckResults anonymous_namespace{BookTests.cpp}::BookRegressionTest::affirm</definition>
+        <argsstring></argsstring>
+        <name>affirm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="27" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a0110591c3bd1dcd73a0851c2372613ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BookRegressionTest::BookRegressionTest</definition>
+        <argsstring>()</argsstring>
+        <name>BookRegressionTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="20" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="185" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a839c50729a6d19fd670cddcc40a7841d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookTests.cpp}::BookRegressionTest::construction</definition>
+        <argsstring>()</argsstring>
+        <name>construction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="23" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="33" bodyend="80"/>
+        <references refid="class_book_1a975ee1725552cb02f0ceaa93a8f89033" compoundref="_book_8cpp" startline="18" endline="18">Book::author</references>
+        <references refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" compoundref="_book_8cpp" startline="10">EPSILON</references>
+        <references refid="class_book_1a9c632960c6ce891b6a8b28b109415f63" compoundref="_book_8cpp" startline="16" endline="16">Book::isbn</references>
+        <references refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" compoundref="_book_8cpp" startline="19" endline="19">Book::price</references>
+        <references refid="class_book_1a5c6aed2bb9537bdf451c83d1377ef593" compoundref="_book_8cpp" startline="17" endline="17">Book::title</references>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a3d9388f1735e41cc3b97fbcb7c69bc05" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void anonymous_namespace{BookTests.cpp}::BookRegressionTest::io</definition>
+        <argsstring>()</argsstring>
+        <name>io</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="24" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="84" bodyend="115"/>
+        <references refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a39b56cf627778125eb125e8681b43abd" compoundref="_book_tests_8cpp" startline="116">anonymous_namespace{BookTests.cpp}::stream</references>
+        <references refid="namespaceanonymous__namespace_02_book_tests_8cpp_03_1a208c3c7a8c482a2f2c4540050b250f8b" compoundref="_book_tests_8cpp" startline="132">anonymous_namespace{BookTests.cpp}::t5</references>
+      </memberdef>
+      <memberdef kind="function" id="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1acc45754b9767d0844a850fa6820eb7c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BookRegressionTest::comparison</definition>
+        <argsstring>()</argsstring>
+        <name>comparison</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="25" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="144" bodyend="181"/>
+        <references refid="_book_8cpp_1a596344e5a2992d2beec43b76a6294de0" compoundref="_book_8cpp" startline="10">EPSILON</references>
+        <references refid="class_book_1ab920f73325f9598513c0f1d731c9a8e4" compoundref="_book_8cpp" startline="19" endline="19">Book::price</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="19">
+        <label>Regression::CheckResults</label>
+        <link refid="struct_regression_1_1_check_results"/>
+        <childnode refid="20" relation="usage">
+          <edgelabel>testResults</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>anonymous_namespace{BookTests.cpp}::BookRegressionTest</label>
+        <link refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test"/>
+        <childnode refid="19" relation="usage">
+          <edgelabel>affirm</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>std::ios_base</label>
+      </node>
+      <node id="20">
+        <label>std::ostream</label>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>std::basic_ostream&lt; char &gt;</label>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" line="18" column="1" bodyfile="Z:/P4 - Associative Containers/SourceCode/BookTests.cpp" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1ae9f0b9c1e103b85f6e23185649044e2c" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookTests.cpp}::BookRegressionTest</scope><name>affirm</name></member>
+      <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a0110591c3bd1dcd73a0851c2372613ce" prot="public" virt="non-virtual"><scope>anonymous_namespace{BookTests.cpp}::BookRegressionTest</scope><name>BookRegressionTest</name></member>
+      <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1acc45754b9767d0844a850fa6820eb7c1" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookTests.cpp}::BookRegressionTest</scope><name>comparison</name></member>
+      <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a839c50729a6d19fd670cddcc40a7841d" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookTests.cpp}::BookRegressionTest</scope><name>construction</name></member>
+      <member refid="classanonymous__namespace_02_book_tests_8cpp_03_1_1_book_regression_test_1a3d9388f1735e41cc3b97fbcb7c69bc05" prot="private" virt="non-virtual"><scope>anonymous_namespace{BookTests.cpp}::BookRegressionTest</scope><name>io</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

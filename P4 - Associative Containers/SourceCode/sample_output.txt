@@ -1,0 +1,112 @@
+
+Charlie Brown's shopping cart contains:
+	"9789998852051",  "From the Coal Mines and Ellis Island to the Asbestos Capital of the World (1st edition)",  "Purzycki",  42.68
+	-------------------------
+	Total  $42.68
+
+Lucy van Pelt's shopping cart contains:
+	"9789999275842",  "Billboard Music Week (1st edition)",  "Joel Whitburn",  107.41
+	"9789999638722",  "The Twelve Crimes of Christmas (Reissue edition)",  "Carol-Lynn Rossel Waugh",  32.44
+	"9789999689182",  "A Sacred Deposit (1st edition)",  "Ronald Jager",  62.57
+	"9789999706124",  "Professor Bear's Mathematical World (1st edition)",  "James N. Boyd",  72.91
+	"9798059840",  "Economic assessment of selected resource management techniques in marginal upland agriculture (1st edition)",  "Ni, Hongxing.",  96.68
+	"9810083262",  "Second chance (1st edition)",  "Robert Yeo",  15.59
+	"9810458290",  "Investing in knowledge capital (1st edition)",  "Shantha Liyanage",  31.98
+	"9812387285",  "Energy and geometry (1st edition)",  "Fabio Cardone",  104.20
+	"9839629549",  "Hawkers delight (1st edition)",  "Jabbar Ibrahim.",  85.55
+	"9844122961",  "Looking back (1st edition)",  "Ekhlāsauddina Āhmada",  24.57
+	"9856194261",  "Scales and consequences of the disaster at the Chernobyl NPP for Belarus, Russia and the Ukraine (1st edition)",  "Vasiliĭ Borisovich Nesterenko",  42.91
+	"9964781385",  "Violence (1st edition)",  "J. S. Pobee",  92.44
+	"9966960619",  "How to build, use and maintain a better bonfire kiln (1st edition)",  "Moses Agumba",  80.15
+	-------------------------
+	Total  $849.40
+
+Peppermint Patty's shopping cart contains:
+	"9789998379794",  "To Freedom and Beyond (1st edition)",  "Alabone",  19.74
+	"9789998470804",  "Help or Hindrance? (1st edition)",  "Kevin Danaher",  96.71
+	"9789999706124",  "Professor Bear's Mathematical World (1st edition)",  "James N. Boyd",  72.91
+	"9789999710718",  "You Can't See Round Corners/2 Cassettes (001-6) (1st edition)",  "Jon Cleary",  62.17
+	"9798184242729",  "Logic at the crossroads (1st edition)",  "\"Indian Conference on Logic and its Relationship with Other Disciplines\" (1st 2005 IIT Bombay)",  75.84
+	"9799577623217",  "Have You Seen My Cat? (Chinese Edition) (1st edition)",  "Eric Carle",  79.94
+	"981012399X",  "Walking the balloon (1st edition)",  "Amos Kwok",  100.39
+	"9810209746",  "Waves & distributions (1st edition)",  "Þórður Jónsson.",  13.56
+	"9810233094",  "New trends in fuzzy logic II (1st edition)",  "Italian Workshop on Fuzzy Logic (2nd 1997 Bari, Italy)",  103.82
+	"9829062015",  "Fishing in Melekeok, Palau = (1st edition)",  "Lorraine Alene Tellei",  32.50
+	"998761776X",  "Assessment of health management information system in government owned health care facilities in Tanzania (1st edition)",  "Henry Mollel",  98.81
+	"9990395128",  "Thorns & roses (2nd ed.)",  "Bhisma Dev Seebaluck",  52.22
+	-------------------------
+	Total  $808.61
+
+Red Baron's shopping cart contains:
+	"54782169785" (131 Answer Key) not found, the book is free!
+	"9789999513104",  "Impact of Computer Use on Children's Learning (1st edition)",  "Henry J. Becker",  22.71
+	"9789999995641",  "Management Styles - Support Literature Video (1st edition)",  "T V Choice",  69.55
+	"9792430091",  "Fiqh & manajemen zakat di Indonesia (Cet. 1.)",  "Fakhruddin",  9.30
+	"9991130306",  "Atlas of birds of Bloemfontein (1st edition)",  "Grzegorz Kopij",  35.44
+	"9991137319",  "Some grasses of the National University of Lesotho, Roma Campus (1st ed.)",  "Sumitra Talukdar",  14.00
+	-------------------------
+	Total  $151.00
+
+Schroeder's shopping cart contains:
+	"9789999746892",  "Children and Television (Annals of the American Academy of Political and Social Science (Paper), Vol557) (1st edition)",  "Amy B. Jordan",  59.60
+	"9799317207",  "Stabilization of upland agriculture under El Nino induced climatic risk (1st edition)",  "Ariffin Tawang.",  109.83
+	"9810227639",  "Advances in robotics (1st edition)",  "ERNET. Research Workshop",  46.70
+	"9810500246",  "secret goldfish and other follies (1st edition)",  "Tan Teck Howe",  87.16
+	"9820000858",  "Manual on fish aggregating devices (FADs). (1st edition)",  "L. B. Chapman",  65.90
+	"9964782578",  "Delivered through rain (1st edition)",  "K. Oduro-Afriyie",  57.48
+	"9964953453",  "Island of No Return (1st edition)",  "G. Kwesi Annoh",  7.57
+	"9964988028",  "Beyond the rivers of Ethiopia (1st edition)",  "Mensa Otabil",  27.17
+	"9987617891",  "Factors that determine women's participation in science and technology related careers in Tanzania (1st edition)",  "Anne Mwakibete",  19.92
+	"9999977219",  "The Sound of Her Laughter (1st edition)",  "Margaret Thornton",  66.22
+	-------------------------
+	Total  $547.55
+
+Woodstock's shopping cart contains:
+	"9789998609976",  "Money, Wealth, and Prosperity (1st edition)",  "Lloyd Glauberman",  45.49
+	"9789998830035",  "Organization Development (Spiral edition)",  "Mary F. Callan",  67.03
+	"9789999141079",  "Simplified Folk Songs (1st edition)",  "Edu Activities Staff",  43.25
+	"9789999338493",  "Car Care (1st edition)",  "Rose Tichy",  27.89
+	"9789999670272",  "Breaking Promises (Let's Talk About Series) (1st edition)",  "Joy Wilt Berry",  119.27
+	"9789999706124",  "Professor Bear's Mathematical World (1st edition)",  "James N. Boyd",  72.91
+	"9789999712651",  "Trade Secrets of Advertising (1st edition)",  "Gary Beals",  106.94
+	"9789999902199",  "You Can Be an Outstanding Customer Service Person (1st edition)",  "William C. Siefkin",  46.96
+	"9789999984270",  "Our Two Minds (1st edition)",  "Ornstein",  75.70
+	"9789999987653",  "Who's Who in American Pharmacy, 1990 (1st edition)",  "American Pharmaceutical Association.",  90.48
+	"9802161748",  "Wild mammals of Venezuela (1st edition)",  "Rexford D. Lord",  47.74
+	"9810234910",  "Algebraic K-theory and its applications (1st edition)",  "Algebraic K-theory and its applications (Workshop and Symposium) (1997 Trieste, Italy)",  11.30
+	"9812040463",  "The dirty dozen (1st edition)",  "Margaret Allen",  32.11
+	"9976910584",  "Cooking with traditional leafy vegetables (1st edition)",  "Pendael Esther",  24.69
+	"9983993279",  "Call me, me (1st edition)",  "Elizabeth Abraham",  107.31
+	"9988584865",  "Ghost names, shadow workers, and the public sector wage bill (1st edition)",  "Joe Amoako-Tuffour",  65.83
+	-------------------------
+	Total  $984.90
+
+
+
+
+
+Re-ordering books the store is running low on.
+
+ 1:  {"9789999706124",  "Professor Bear's Mathematical World (1st edition)",  "James N. Boyd",  72.91} 
+        only 14 remain in stock which is 1 unit(s) below reorder threshold (15), re-ordering 20 more
+
+ 2:  {"9789999746892",  "Children and Television (Annals of the American Academy of Political and Social Science (Paper), Vol557) (1st edition)",  "Amy B. Jordan",  59.60} 
+        only 13 remain in stock which is 2 unit(s) below reorder threshold (15), re-ordering 20 more
+
+ 3:  {"9798184242729",  "Logic at the crossroads (1st edition)",  "\"Indian Conference on Logic and its Relationship with Other Disciplines\" (1st 2005 IIT Bombay)",  75.84} 
+        only 6 remain in stock which is 9 unit(s) below reorder threshold (15), re-ordering 20 more
+
+ 4:  {"9802161748",  "Wild mammals of Venezuela (1st edition)",  "Rexford D. Lord",  47.74} 
+        *** no longer sold in this store and will not be re-ordered
+
+ 5:  {"9964953453",  "Island of No Return (1st edition)",  "G. Kwesi Annoh",  7.57} 
+        only 9 remain in stock which is 6 unit(s) below reorder threshold (15), re-ordering 20 more
+
+ 6:  {"9976910584",  "Cooking with traditional leafy vegetables (1st edition)",  "Pendael Esther",  24.69} 
+        only 12 remain in stock which is 3 unit(s) below reorder threshold (15), re-ordering 20 more
+
+ 7:  {"9988584865",  "Ghost names, shadow workers, and the public sector wage bill (1st edition)",  "Joe Amoako-Tuffour",  65.83} 
+        only 12 remain in stock which is 3 unit(s) below reorder threshold (15), re-ordering 20 more
+
+ 8:  {"9991137319",  "Some grasses of the National University of Lesotho, Roma Campus (1st ed.)",  "Sumitra Talukdar",  14.00} 
+        only 8 remain in stock which is 7 unit(s) below reorder threshold (15), re-ordering 20 more
